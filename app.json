@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/log/log",
+    "pages/xinxi_/xinxi_",
+    "pages/member/member",
+    "pages/testpages/test_1/test_1",
+    "pages/testpages/test_2/test_2",
+    "pages/testpages/test_3/test_3",
+    "pages/testpages/test_4/test_4",
+    "pages/yinping/yinping",
+    "pages/zidingyi/zidingyi",
+    "pages/family/family", 
+    "pages/guanxi/guanxi",
+    "pages/women/women",
+    "pages/chuxin/chuxin",
+    "pages/xinxi/xinxi",
+    "pages/lianxi/lianxi",
+    "pages/wode/wode",
+    "pages/index/index", 
+    "pages/kepu/kepu",
+    "pages/monishi/monishi",
+    "pages/baogao/baogao",
+    "pages/baogao_1/baogao_1"
+    
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "selectedColor": "#ffffff",
+    "borderStyle": "white",
+    "backgroundColor": "#2f3e72",
+    "list": [
+      {
+        "iconPath": "images/科普宣教 (1).png",
+        "selectedIconPath": "images/科普宣教.png",
+        "pagePath": "pages/kepu/kepu",
+        "text": "科普"
+      },
+      {
+        "iconPath": "images/模拟（1）.png",
+        "selectedIconPath": "images/模拟 .png",
+        "pagePath": "pages/monishi/monishi",
+        "text": "模拟室"
+      },
+      {
+        "iconPath": "images/首页（1）.png",
+        "selectedIconPath": "images/首页 .png",
+        "pagePath": "pages/index/index",
+        "text": "测试中心"
+      },
+      {
+        "iconPath": "images/我的报告 (1).png",
+        "selectedIconPath": "images/我的报告.png",
+        "pagePath": "pages/baogao/baogao",
+        "text": "报告"
+      },
+      {
+
+       
+        "iconPath": "images/我的（1）.png",
+        "selectedIconPath": "images/我的 .png",
+
+        "pagePath": "pages/wode/wode",
+
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

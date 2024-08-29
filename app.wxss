@@ -1,0 +1,15 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page {
+  --themeColorPink: #e49e8f;
+  --themeColorBlue: #2f3e72;
+  --bgColorLightPink: #f7e9e8;
+}
