@@ -1,0 +1,36 @@
+<!--pages/women/women.wxml-->
+<view class="flex-col page">
+  <view class="flex-col items-center">
+    <image
+      class="image"
+      src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=f67051e0a98de1dce7dbf67001896099.png"
+    />
+    <image
+      class="image_2 mt-23"
+      src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=8cf69114995ad1f5f566f02645d912d8.png"
+    />
+  </view>
+  <view class="flex-col mt-41">
+    <view bindtap="gotochuxin" class="flex-col justify-start relative group">
+      <view class="flex-col justify-start items-center text-wrapper"><text class="font text">创建初心</text></view>
+      <image
+        class="image_3 pos"
+        src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=8758a05c42183bedfcbdc83430661014.png"
+      />
+    </view>
+    <view bindtap="maker" class="flex-col justify-start relative group view">
+      <view class="flex-col justify-start items-center text-wrapper_2"><text class="font">初创人员</text></view>
+      <image
+        class="image_3 pos_2"
+        src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=8758a05c42183bedfcbdc83430661014.png"
+      />
+    </view>
+    <view bindtap="connectus" class="flex-row justify-center items-center relative section">
+      <text class="font">联系我们</text>
+      <image
+        class="image_4 pos_3"
+        src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=8758a05c42183bedfcbdc83430661014.png"
+      />
+    </view>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+<!--pages/wodes/wodes.wxml-->
+<view class="image">
+  <image src="/images/我的.jpg" class="container" mode="scaleToFill"></image>
+<view class="text">个人中心</view>
+</view>

@@ -1,0 +1,25 @@
+/* pages/wodes/wodes.wxss */
+.text{
+  color: #142665;
+  text-shadow: 2rpx 2rpx 5rpx #f2c8bf;
+  font-size: 45rpx;
+  font-weight: bold;
+  margin-top: 5rpx;
+ text-align: center;
+ position:relative;
+ top:-400rpx;
+}
+.image{
+width:95%;
+border-radius: 30px;
+  margin: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border:5px solid #7881a3;
+  height:400rpx;
+}
+.container{
+  height:400rpx;
+  width:100%;
+  padding:0%;
+  border-radius:30px ;
+}

@@ -1,0 +1,97 @@
+<!--pages/wode/wode.wxml-->
+<view class="flex-col page">
+  <view class="flex-col section">
+    <image
+      class="self-start image"
+      src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=4664d91efddcacd9932cb7801ff4bf06.png"
+    />
+    <view class="flex-row justify-center self-stretch group mt-7">
+      <view class="flex-row">
+        <image
+          class="shrink-0 image_2"
+          src="{{userInfo.avatarUrl}}"
+        />
+        <text class="self-start font text ml-18">{{userInfo.nickName}}</text>
+      </view>
+      <view bindtap="gotoxinxi" class="flex-row items-center self-start section_2 ml-20">
+        <image
+          class="shrink-0 image_3"
+          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=1b0d31d31f9a76181d63bfa7d9c793fb.png"
+        />
+        <text class="text_2">编辑个人信息</text>
+      </view>
+    </view>
+  </view>
+  <view class="flex-col group_2 mt-23">
+    <view class="flex-col self-stretch list">
+      <view bindtap="gotofamily" class="flex-row justify-between list-item">
+        <view class="flex-row items-center self-start">
+          <image
+            class="shrink-0 image_4"
+            src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=21ad26e2a6e705b8a0b26dd4ad1e08dd.png"
+          />
+          <text class="font text_3 ml-31">家庭成员</text>
+        </view>
+        <image
+          class="self-center image_5 image_6"
+          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ba596d12924ac406931e9356a4ca3fbb.png"
+        />
+      </view>
+      <view bindtap="xiazai" class="flex-row justify-between items-center list-item_2">
+        <view class="flex-row items-center">
+          <image
+            class="shrink-0 image_8"
+            src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ff2aa929a488a53ccd5b1faaf092bd25.png"
+          />
+          <text class="font text_4 ml-33">音频下载</text>
+        </view>
+        <image
+          class="image_5 image_7"
+          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ba596d12924ac406931e9356a4ca3fbb.png"
+        />
+      </view>
+      <view class="flex-row justify-between items-center list-item_2">
+        <view class="flex-row items-center">
+          <image
+            class="shrink-0 image_4"
+            src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=8eee4bf92c1e73cc8e5ec7976d886ac6.png"
+          />
+          <text class="font ml-31">隐私协议</text>
+        </view>
+        <image
+          class="image_5 image_7"
+          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ba596d12924ac406931e9356a4ca3fbb.png"
+        />
+      </view>
+      <view class="flex-row justify-between items-center list-item_3">
+        <view class="flex-row items-center">
+          <image
+            class="shrink-0 image_5"
+            src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=c3836f299e6f3bea2277cf936e491979.png"
+          />
+          <text class="font text_5 ml-26">在线咨询</text>
+        </view>
+        <image
+          class="image_5 image_9"
+          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ba596d12924ac406931e9356a4ca3fbb.png"
+        />
+      </view>
+      <view bindtap="gotowomen" class="flex-row justify-between items-center list-item_4">
+        <view class="flex-row items-center">
+          <image
+            class="shrink-0 image_10"
+            src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=f44f8d9928ea94dcc96cee88f5dd658c.png"
+          />
+          <text class="font text_6 ml-25">关于我们</text>
+        </view>
+        <image
+          class="image_5 image_11"
+          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ba596d12924ac406931e9356a4ca3fbb.png"
+        />
+      </view>
+    </view>
+    <view bindtap="loginout" class="flex-col justify-start items-center self-center text-wrapper">
+      <text class="text_7">退出登录</text>
+    </view>
+  </view>
+</view>

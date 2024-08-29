@@ -1,0 +1,96 @@
+<!--pages/yinping/yinping.wxml-->
+<view class="flex-col page">
+  <image
+    class="self-center image"
+    src="https://ide.code.fun/api/image?token=66cd7c3e5fdd2800116c62b6&name=f67051e0a98de1dce7dbf67001896099.png"
+  />
+  <view class="flex-col self-stretch mt-12">
+    <view class="flex-col section">
+      <view class="flex-row group">
+        <text class="font text_1">语谱噪声测试</text>
+        <image
+          class="image_2 ml-9"
+          src="https://ide.code.fun/api/image?token=66cd7c3e5fdd2800116c62b6&name=4e4336e503ac4e6638a74d12b016eb3d.png"
+        />
+      </view>
+      <view class="flex-row justify-between mt-13">
+        <view class="section_2">
+  <view class="dropdown-selected" bindtap="showOptions">{{selectedItem.text || '请选择'}}</view>
+  <view class="section_2_" wx:if="{{showOptionsPanel}}">
+    <block wx:for="{{options}}" wx:key="*this">
+      <view class="option-item" bindtap="selectOption" data-index="{{index}}">{{item.text}}</view>
+    </block>
+  </view>
+</view>
+        <!-- <view class="section_2"></view> -->
+        <view class="flex-col justify-start items-center text-wrapper"><text class="font_2">保存</text></view>
+      </view>
+    </view>
+    <view class="flex-col section_3 mt-12">
+      <view class="flex-row group_2">
+        <text class="font text">回声测试</text>
+        <image
+          class="image_2 ml-7"
+          src="https://ide.code.fun/api/image?token=66cd7c3e5fdd2800116c62b6&name=4e4336e503ac4e6638a74d12b016eb3d.png"
+        />
+      </view>
+      <view class="flex-row justify-between mt-16">
+        <view class="section_2">
+  <view class="dropdown-selected" bindtap="showOptions_1">{{selectedItem_1.text || '请选择'}}</view>
+  <view class="section_2_" wx:if="{{showOptionsPanel_1}}">
+    <block wx:for="{{options}}" wx:key="*this">
+      <view class="option-item" bindtap="selectOption_1" data-index="{{index}}">{{item.text}}</view>
+    </block>
+  </view>
+</view>
+        <view class="flex-col justify-start items-center text-wrapper_2"><text class="font_2">保存</text></view>
+      </view>
+    </view>
+    <view class="flex-col relative section_4 mt-12">
+      <view class="flex-row items-center self-stretch group_3">
+        <text class="font text_2">倍速测试</text>
+        <image
+          class="image_2 ml-5"
+          src="https://ide.code.fun/api/image?token=66cd7c3e5fdd2800116c62b6&name=4e4336e503ac4e6638a74d12b016eb3d.png"
+        />
+      </view>
+      <view class="section_2">
+  <view class="dropdown-selected" bindtap="showOptions_2">{{selectedItem_2.text || '请选择'}}</view>
+  <view class="section_2_" wx:if="{{showOptionsPanel_2}}">
+    <block wx:for="{{options}}" wx:key="*this">
+      <view class="option-item" bindtap="selectOption_2" data-index="{{index}}">{{item.text}}</view>
+    </block>
+  </view>
+</view>
+      <view class="flex-col justify-start items-center text-wrapper_3 pos"><text class="font_2">保存</text></view>
+    </view>
+    <view class="flex-col relative section_5 mt-12">
+      <view class="flex-row items-center self-stretch group_4">
+        <text class="font text_3">环境噪声测试</text>
+        <image
+          class="image_2 ml-8"
+          src="https://ide.code.fun/api/image?token=66cd7c3e5fdd2800116c62b6&name=4e4336e503ac4e6638a74d12b016eb3d.png"
+        />
+      </view>
+      <view class="section_2">
+  <view class="dropdown-selected" bindtap="showOptions_3">{{selectedItem_3.text || '请选择'}}</view>
+  <view class="section_2_" wx:if="{{showOptionsPanel_3}}">
+    <block wx:for="{{options}}" wx:key="*this">
+      <view class="option-item" bindtap="selectOption_3" data-index="{{index}}">{{item.text}}</view>
+    </block>
+  </view>
+</view>
+      <view class="flex-col justify-start items-center text-wrapper_4 pos_2"><text class="font_2">保存</text></view>
+    </view>
+  </view>
+</view>
+<!--index.wxml-->
+<!-- 自定义下拉选项框结构 -->
+<!-- <view class="dropdown">
+  <view class="dropdown-selected" bindtap="showOptions">{{selectedItem.text || '请选择'}}</view>
+  <view class="dropdown-options" wx:if="{{showOptionsPanel}}">
+    <block wx:for="{{options}}" wx:key="*this">
+      <view class="option-item" bindtap="selectOption" data-index="{{index}}">{{item.text}}</view>
+    </block>
+  </view>
+</view> -->
