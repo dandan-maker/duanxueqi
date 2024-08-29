@@ -1,0 +1,13 @@
+<view class="bj"></view>
+<image src="/images/登录背景.png" class="image" mode="scaleToFill"></image>
+<view class="item">
+  <view class="text">欢迎来到生活场景听力测试</view>
+  <button class="button" bindtap="login">绑定微信登录</button>
+  <checkbox-group class="checkbox-group">
+        <label>
+          <checkbox value="agree" />
+          我已阅读并同意
+          <text class="link" bindtap="openTerms">《相关条款》</text>
+        </label>
+      </checkbox-group>
+</view>

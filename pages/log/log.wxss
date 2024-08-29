@@ -1,0 +1,48 @@
+
+.button {
+  background-color: #2f3e72;
+  color: white;
+  margin-top: 30rpx;
+  border-radius: 20rpx;
+}
+
+.bj {
+  background-color: #2f3e72;
+  height: 150rpx;
+  background-image: linear-gradient(to bottom, #2f3e72, #8f73b2);
+}
+
+.image {
+  width: 750rpx;
+  height: 700rpx;
+}
+
+.item {
+  width: 90%;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.text {
+  margin-top: 30rpx;
+  text-align: center;
+  color: #142665;
+  text-shadow: 2rpx 2rpx 5rpx #f2c8bf;
+  font-size: 45rpx;
+  font-weight: bold;
+}
+.checkbox-group {
+  margin-top: 10px;
+  margin-left: 80rpx;
+  text-align:center;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group .link {
+  color:#f3785e;
+  margin-left: 5px;
+}

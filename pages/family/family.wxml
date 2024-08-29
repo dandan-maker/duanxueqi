@@ -1,0 +1,41 @@
+<!--pages/family/family.wxml-->
+<view class="flex-col page">
+  <view class="flex-row justify-center items-center section">
+    <image
+      class="image"
+      src="{{userInfo.avatarUrl}}"
+    />
+    <view class="ml-14 flex-col items-start group">
+      <text class="text">欢迎您，</text>
+      <text class="mt-20 font text_2">{{userInfo.nickName}}</text>
+    </view>
+  </view>
+  <view class="flex-col group_2">
+    <view class="flex-row items-center group_3" bindtap="addpeople">
+      <image
+        class="image_2"
+        src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=b40038faafa8915f0e25c726fdf07c5c.png"
+      />
+      <text class="text_3 ml-9">添加联系人</text>
+    </view>
+    <scroll-view scroll-y="true" style="height: 700rpx;" class="flex-col section_2">
+      <view bindtap="gotomember" class="flex-col justify-start relative group_4">
+        <view class="flex-col justify-start items-start text-wrapper">
+          <text class="font text_4 text_5">女儿</text>
+        </view>
+        <image
+          class="image_3 pos"
+          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=aadd4cdcaf8feb0fac595f375fa2ac28.png"
+        />
+      </view>
+      <view class="flex-col justify-start relative group_4">
+        <view class="flex-col justify-start items-start text-wrapper_2"><text class="font text_4">爸爸</text></view>
+        <image
+          class="image_3 pos_2"
+          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=aadd4cdcaf8feb0fac595f375fa2ac28.png"
+        />
+      </view>
+      
+    </scroll-view>
+  </view>
+</view>

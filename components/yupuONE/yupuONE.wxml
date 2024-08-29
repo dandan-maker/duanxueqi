@@ -1,0 +1,66 @@
+<view class="flex-col items-start page" bind:tap="onClick">
+  <view class="flex-col justify-start items-center relative group">
+    <view class="flex-col justify-start items-end section">
+      <view class="flex-row items-center group_2">
+        <image
+          class="image_2"
+          src="https://ide.code.fun/api/image?token=66cbfc985fdd2800116c53eb&name=fd47d8ecb790d9171cd235733f2db2ef.png"
+        />
+
+        <view class="flex-col justify-start text-wrapper ml-4"><text class="text_6">点击重新播放录音</text></view>
+      </view>
+    </view>
+    <image
+      class="image pos "
+      src="https://ide.code.fun/api/image?token=66cbfc985fdd2800116c53eb&name=2718fed987b3b8e36b335327c0eff711.png "
+    />
+    <view class="close-button" bindtap="closePage">×</view>
+    
+    <view class="flex-col list pos_2">
+      <view class="flex-col group_1">
+        <text class="self-start font text">正确答案为：</text>
+        <text class="self-center font_2 text_2 text_3 mt-13">{{listCorrectAnswer[receiveDataButton-1]}}</text>
+      </view>
+      <view class="flex-col mt-17">
+        <text class="self-start font">您的答案为：</text>
+        <text class="self-center font_2 text_2 text_4 mt-13">{{listYourAnswer[receiveDataButton-1]}}</text>
+      </view>
+      <view class="flex-col mt-17">
+        <text class="self-start font">此题您得分：</text>
+        <text class="self-end font_2 text_2 text_5 mt-10">{{listYourScore[receiveDataButton-1]}}</text>
+      </view>
+    </view>
+  </view>
+
+  
+  <view class="flex-col justify-start group_5 mt-37">
+    <view class="flex-col justify-start items-start relative group_4">
+    
+      <view class="flex-col justify-start items-center {{receiveDataButton === 1 ? 'text-wrapper_2' : 'text-wrapper_2_or'}} " 
+      bind:tap="Click1"><text class="font_3 {{receiveDataButton === 1 ? 'text_7' : 'text_8'}}">1</text></view>
+      
+      <view class="flex-col justify-start items-center pos_3 {{receiveDataButton === 2 ? 'view_or':'view' }} " bind:tap="Click2"><text class="font_3   text_9  {{receiveDataButton === 2 ? 'text_7':'text_8'}}">2</text></view>
+
+      <view class="flex-col justify-start items-center pos_4 {{receiveDataButton === 3 ? ' text-wrapper_1_or':' text-wrapper_1' }}" bind:tap="Click3"><text class="font_3 {{receiveDataButton === 3 ? 'text_7' : 'text_8'}}">3</text></view>
+
+      <view class="flex-col justify-start items-center pos_5 {{receiveDataButton === 4 ? ' view_3_or':' view_3' }} " bind:tap="Click4"><text class="font_3 text_10 {{receiveDataButton === 4 ? 'text_7' : 'text_8'}}">4</text></view>
+
+      <view class="flex-col justify-start items-center pos_6 {{receiveDataButton === 5 ? ' view_4_or':' view_4' }}" bind:tap="Click5"><text class="font_3  text_11 {{receiveDataButton === 5 ? 'text_7' : 'text_8'}}">5</text></view>
+
+      <view class="flex-col justify-start items-center view_5 {{receiveDataButton === 6 ? 'text-wrapper_7_or':'text-wrapper_7'}}" bind:tap="Click6"> 
+        <text class="font_3 {{receiveDataButton === 6 ? 'text_8_or' : 'text_8'}}">6</text>
+      </view>
+
+      <view class="flex-col justify-start items-center pos_8 {{receiveDataButton === 7 ? ' view_6_or':' view_6 ' }}" bind:tap="Click7"><text class="font_3 text_12 {{receiveDataButton === 7 ? 'text_7' : 'text_8'}}">7</text></view>
+
+      <view class="flex-col justify-start items-center pos_9 {{receiveDataButton === 8 ? ' view_1_or':' view_1  ' }}" bind:tap="Click8"><text class="font_3  text_13 {{receiveDataButton === 8 ? 'text_7' : 'text_8'}}">8</text></view>
+
+      <view class="flex-col justify-start items-center view_8 {{receiveDataButton === 9 ? ' text-wrapper_7_or':' text-wrapper_7' }}" bind:tap="Click9">
+        <text class="font_3 {{receiveDataButton === 9 ? 'text_7' : 'text_8'}}">9</text>
+      </view>
+
+      <view class="flex-col justify-start items-center text-wrapper_10 {{receiveDataButton === 10 ? ' view_7_or':' view_7' }}" bind:tap="Click10"><text class="font_3 {{receiveDataButton === 10 ? 'text_7' : 'text_8'}}">10</text></view>
+
+    </view>
+</view>
+</view>

@@ -1,0 +1,117 @@
+/**index.wxss**/
+Page {
+  height: 100%;
+
+  --textColorDarkGrey: #2c2823;
+}
+
+.bgImg {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  opacity: 60%;
+  z-index: -1;
+}
+
+.hometitle {
+  height: 120rpx;
+  border-bottom: 10rpx solid var(--themeColorPink);
+  margin: 0 10rpx;
+  display: flex;
+  align-items: center;
+}
+.hometitle .title_icon {
+  margin-left: 20rpx;
+  padding-top: 5rpx;
+  height: 50rpx;
+}
+.hometitle .title_text {
+  color: var(--themeColorBlue);
+  font-size: x-large;
+  font-weight: bolder;
+  margin-left: 10rpx;
+}
+
+.banner {
+  height: 200rpx;
+  margin: 0 10rpx;
+  background-color: rgba(47,62,114,0.5);  /*--themeColorBlue, with 50% opacity*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .banner_textblock {
+  font-size: large;
+  color: white;
+  margin-left: 40rpx;
+  display: flex;
+  flex-direction: column;
+}
+.banner .banner_img {
+  height: 140rpx;
+  margin-right: 40rpx;
+  border-radius: 35rpx;
+  border: 5rpx solid white;
+}
+.banner_tri {
+  margin: 0 10rpx;
+  width: 0;
+  height: 0;
+  border-left: 365rpx solid transparent;
+  border-right: 365rpx solid transparent;
+  border-top: 80rpx solid rgba(47,62,114,0.5);
+}
+
+.testscene {
+  margin: 60rpx 110rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testscene .testscene_left {
+  height: 600rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 150rpx;
+}
+.testscene .testscene_right {
+  height: 600rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 150rpx;
+}
+#scene_block {
+  height: 220rpx;
+  width: 220rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 30%;
+  border: 10rpx double var(--themeColorPink)
+}
+#scene_block .block_num_icon {
+  height: 100rpx;
+  padding: 20rpx 45rpx 0 55rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#scene_block .block_num_icon .block_num {
+  font-size: x-large;
+  font-weight: bold;
+  color: var(--textColorDarkGrey);
+}
+#scene_block .block_num_icon .block_icon {
+  height: 55rpx;
+}
+#scene_block .block_title {
+  font-size: large;
+  padding-bottom: 40rpx;
+  color: var(--textColorDarkGrey);
+}

@@ -1,0 +1,43 @@
+<!--index.wxml-->
+
+
+<!--背景图片-->
+<image src="/image/index_img/index_bgImg.jpg" mode="aspectFill" class="bgImg"/>
+<!--顶部栏-->
+<view class="hometitle">
+  <image src="../../image/index_img/index_homeIcon.png" mode="heightFix" class="title_icon"/>
+  <view class="title_text">测试中心</view>
+</view>
+
+<!--标语栏-->
+<view class="banner">
+  <view class="banner_textblock">
+    <text>中老年人听力守护</text>
+    <text>生活场景听力测试已开启</text>
+  </view>
+  <image src="../../image/index_img/index_banner_img.png" mode="heightFix" class="banner_img"/>
+</view>
+<view class="banner_tri"></view>
+
+<!--测试入口-->
+<view class="testscene">
+  <view class="testscene_left">
+    <view id="scene_block" data-id="{{item.num}}" wx:for="{{testscene_1_3}}" wx:for-item="item" wx:for-index="idx" wx:key="idx" style="background-color: {{item.bgcolor}};" bindtap="onClick">
+      <view class="block_num_icon">
+        <view class="block_num">{{item.num}}</view>
+        <image src="{{item.icon_src}}" mode="heightFix" class="block_icon"/>
+      </view>
+      <view class="block_title">{{item.title}}</view>
+    </view>
+  </view>
+  <view class="testscene_right">
+    <view id="scene_block" data-id="{{item.num}}" wx:for="{{testscene_2_4}}" wx:for-item="item" wx:for-index="idx" wx:key="idx" style="background-color: {{item.bgcolor}};" bindtap="onClick">
+      <view class="block_num_icon">
+        <view class="block_num">{{item.num}}</view>
+        <image src="{{item.icon_src}}" mode="heightFix" class="block_icon"/>
+      </view>
+      <view class="block_title">{{item.title}}</view>
+    </view>
+  </view>
+</view>
+

@@ -1,0 +1,52 @@
+<!--pages/lianxi/lianxi.wxml-->
+<view class="flex-col page">
+  <view class="flex-col items-center">
+    <image
+      class="image"
+      src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=f67051e0a98de1dce7dbf67001896099.png"
+    />
+    <image
+      class="image_2 mt-23"
+      src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=8cf69114995ad1f5f566f02645d912d8.png"
+    />
+  </view>
+  <view class="flex-col group mt-41">
+    <view class="flex-col justify-start relative group_2">
+      <view class="flex-col justify-start items-center text-wrapper"><text class="font text">创建初心</text></view>
+      <image
+        class="image_3 pos"
+        src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=8758a05c42183bedfcbdc83430661014.png"
+      />
+    </view>
+    <view class="flex-col justify-start relative group_2 view">
+      <view class="flex-col justify-start items-center text-wrapper_2"><text class="font">初创人员</text></view>
+      <image
+        class="image_3 pos_2"
+        src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=8758a05c42183bedfcbdc83430661014.png"
+      />
+    </view>
+    <view class="flex-col justify-start relative group_3">
+      <view class="flex-col justify-start items-center text-wrapper_3"><text class="font">联系我们</text></view>
+      <image
+        class="image_4 pos_3"
+        src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=3a0f1643844170cc8ce348bdb4eb5ef4.png"
+      />
+    </view>
+    <view class="flex-col justify-start relative group_4">
+      <button class="flex-col justify-start items-center text-wrapper_2">
+        <text class="font text_2">向开发者反馈</text>
+      </button>
+      <view class="flex-col justify-start items-center text-wrapper_4 pos_5">
+        <text class="font text_3">向微信平台投诉</text>
+      </view>
+      <image
+        class="image_3 pos_4"
+        src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=8758a05c42183bedfcbdc83430661014.png"
+      />
+      <image
+        class="image_3 pos_6"
+        src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=8758a05c42183bedfcbdc83430661014.png"
+      />
+    </view>
+  </view>
+</view>
