@@ -63,7 +63,7 @@
           src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ba596d12924ac406931e9356a4ca3fbb.png"
         />
       </view>
-      <view class="flex-row justify-between items-center list-item_3">
+      <view bindtap="gotozixun" class="flex-row justify-between items-center list-item_3">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_5"

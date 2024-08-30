@@ -23,6 +23,9 @@ Page({
   },
   loginout(){
     wx.setStorageSync('user', null)
+    wx.navigateTo({
+      url: '/pages/log/log',
+    })
   },
   xiazai(){
     wx.navigateTo({
@@ -32,6 +35,11 @@ Page({
   gotofamily(){
     wx.navigateTo({
       url: '/pages/family/family',
+    })
+  },
+  gotozixun(){
+    wx.navigateTo({
+      url: '/pages/zixun/zixun',
     })
   }
                           

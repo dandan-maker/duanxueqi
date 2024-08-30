@@ -3,8 +3,8 @@ const app = getApp()
 const AV = require('../../libs/av-core-min.js');
 Page({
   data: {
-    userInfo: ''
-
+    userInfo: '',
+    ischecked:false
   },
   onLoad(){
     let users= wx.getStorageSync('user')
@@ -18,6 +18,7 @@ if(this.data.userInfo){
 }
   },
   login(){
+    if(this.data.ischecked==true){
     wx.getUserProfile({
       desc: '用于完善个人信息', // 声明获取用户个人信息后的用途，后续会展示在弹窗中，请谨慎填写
       success: res => {
@@ -38,10 +39,28 @@ if(this.data.userInfo){
       fail: res=> {
         console.log("授权失败", res)
       }
-    })
-    
+    })}
+    else{
+      wx.showModal({
+        title: '提示',
+        content: '请先阅读并同意《相关条款》',
+        success (res) {
+          if (res.confirm) {
+            console.log('用户点击确定')
+          } else if (res.cancel) {
+            console.log('用户点击取消')
+          }
+        }
+      })
+    }
     
 
+  },
+  change(){
+this.setData({
+  ischecked:!this.data.ischecked
+})
+console.log(this.data.ischecked)
   },
   openTerms(){
     

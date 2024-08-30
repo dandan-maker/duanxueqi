@@ -5,8 +5,8 @@
   <button class="button" bindtap="login">绑定微信登录</button>
   <checkbox-group class="checkbox-group">
         <label>
-          <checkbox value="agree" />
-          我已阅读并同意
+          <checkbox bindtap="change" checked="{{ischecked}}" value="agree" >
+          我已阅读并同意</checkbox>
           <text class="link" bindtap="openTerms">《相关条款》</text>
         </label>
       </checkbox-group>
