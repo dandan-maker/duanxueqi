@@ -1,16 +1,18 @@
-// pages/monishi/monishi.js
+// pages/moni/moni.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      
+  
   },
-  // 跳转到模拟室页面
-  open:function(){
+  viewTap(e){
+    console.log(e);
+  },
+  toHand:function(){
     wx.navigateTo({
-      url: '../moni/moni',
+      url: '../hand/hand',
     })
   },
   /**
@@ -31,7 +33,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
-
+  
   },
 
   /**
