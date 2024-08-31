@@ -1,18 +1,18 @@
 <!--pages/testpages/test_2/test_2.wxml-->
 <view class="cover">
   <input wx:if="{{iptShow}}" bindinput="onIpt" type="text" placeholder="请输入听到的内容（10字）" maxlength="10" confirm-type="done" value="{{iptValue}}" class="ipt"/>
-  <image src="/image/testpages/testpages_2.jpg" mode="widthFix" class="bgImg"/>
+  <image src="http://lc-KixOdMjP.cn-n1.lcfile.com/nSgdm3FxefWU2b3YsVseqsYfjO8phY8z/testpages_3.jpg" mode="widthFix" class="bgImg"/> <!--图片链接只是文件命名有误，暂且不调整-->
 </view>
 
 <view class="guide">
   <view class="title">回声场景测试</view>
   <progress stroke-width="30" border-radius='20' backgroundColor="var(--bgColorLightPink)" activeColor="var(--themeColorBlue)" show-info="true" percent="{{prog}}" class="prog"/>
   <view class="home">
-    <image wx:if="{{isEnd}}" src="/image/index_img/index_homeIcon.png" mode="heightFix" class="homeImg" bindtap="onBackHome"/>
+    <image wx:if="{{isEnd}}" src="http://lc-KixOdMjP.cn-n1.lcfile.com/QEGa1K0SmetjfHwnE4W858lq9yBq4dU6/index_homeIcon.png" mode="heightFix" class="homeImg" bindtap="onBackHome"/>
     <text wx:if="{{isEnd}}">返回</text>
   </view>
   <view class="next">
-    <image src="/image/testpages/testpages_rightArrow.png" mode="heightFix" class="nextImg" bindtap="onNext"/>
+    <image src="http://lc-KixOdMjP.cn-n1.lcfile.com/awu4ynJXoijdFKee95wnrXTDjH82TNNX/testpages_rightArrow.png" mode="heightFix" class="nextImg" bindtap="onNext"/>
     <text wx:if="{{!isEnd}}">下一题</text>
     <text wx:else>继续测试</text>
   </view>

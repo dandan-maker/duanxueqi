@@ -2,10 +2,10 @@
 
 
 <!--背景图片-->
-<image src="/image/index_img/index_bgImg.jpg" mode="aspectFill" class="bgImg"/>
+<image src="http://lc-KixOdMjP.cn-n1.lcfile.com/Pa95zqhIOF1ztIgWu0g8ch8g0Aim8xWA/index_bgImg.jpg" mode="aspectFill" class="bgImg"/>
 <!--顶部栏-->
 <view class="hometitle">
-  <image src="../../image/index_img/index_homeIcon.png" mode="heightFix" class="title_icon"/>
+  <image src="http://lc-KixOdMjP.cn-n1.lcfile.com/QEGa1K0SmetjfHwnE4W858lq9yBq4dU6/index_homeIcon.png" mode="heightFix" class="title_icon"/>
   <view class="title_text">测试中心</view>
 </view>
 
@@ -15,7 +15,7 @@
     <text>中老年人听力守护</text>
     <text>生活场景听力测试已开启</text>
   </view>
-  <image src="../../image/index_img/index_banner_img.png" mode="heightFix" class="banner_img"/>
+  <image src="http://lc-KixOdMjP.cn-n1.lcfile.com/cDkdpNhIFT2XDs9HaWrYX1QdcqoGoyHc/index_banner_img.png" mode="heightFix" class="banner_img"/>
 </view>
 <view class="banner_tri"></view>
 
