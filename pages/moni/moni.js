@@ -5,7 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    playSucceed:true,
+    iconStop:"http://lc-KixOdMjP.cn-n1.lcfile.com/e0S9wgxul7393uDozK1cpzyC29CSSCac/%E6%9A%82%E5%81%9C.png",
+    iconPlaySucceed:"http://lc-KixOdMjP.cn-n1.lcfile.com/jR7tiicV1umXUqBnMCtmW1vPh04oDmE4/%E6%92%AD%E6%94%BE.png",
+  },
+  //点击播放/暂停
+  chooseIcon:function(){
+    let value = this.data.playSucceed;
+    this.setData({
+      playSucceed:!value
+    })
+    console.log(value)
   },
   viewTap(e){
     console.log(e);

@@ -31,6 +31,19 @@
       <button class="button-2" bindtap="change">重度损失</button>
     </view>
     <view class="view_5">
-      <button class="button-3" bindtap="play">播放</button>
+      <view wx:if="{{playSucceed==false}}">
+        <view bindtap="chooseIcon">
+          <view>
+            <image src="{{iconStop}}" class="bofang"></image>
+          </view>
+        </view>
+      </view>
+      <view wx:else>
+        <view bindtap="chooseIcon">
+          <view>
+            <image src="{{iconPlaySucceed}}" class="bofang"></image>
+          </view>
+        </view>
+      </view>
     </view>
   </view>
