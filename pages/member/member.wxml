@@ -1,13 +1,13 @@
 <view class="flex-col page">
   <view class="flex-col">
     <view class="flex-col items-center self-stretch section">
-      <text class="font text">您的女儿</text>
-      <text class="font text_2 mt-35">XXX</text>
+      <text class="font text">您的{{relationship}}</text>
+      <text class="font text_2 mt-35">{{name}}</text>
     </view>
     <view bindtap="gotoxinxi" class="flex-row items-center self-end section_2">
       <image
         class="shrink-0 image"
-        src="https://ide.code.fun/api/image?token=66d008345fdd2800116c8b16&name=1b0d31d31f9a76181d63bfa7d9c793fb.png"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/OKbIt7d0YybEq2GuhNpa87L7VRoEfKVE/%E9%93%85%E7%AC%94%20%281%29.png"
       />
       <text class="font_2 text_3">编辑个人信息</text>
     </view>
@@ -22,14 +22,14 @@
           <text class="font_3">语谱噪声</text>
           <image
             class="shrink-0 image_3 ml-9"
-            src="https://ide.code.fun/api/image?token=66d008345fdd2800116c8b16&name=71c4403c2fb4a9c6ed9664310a6b9905.png"
+            src="http://lc-KixOdMjP.cn-n1.lcfile.com/jDKXPD1zmXNErLzSrSfM92zV5UN5Kury/%E8%AF%AD%E8%B0%B1%20%281%29.png"
           />
         </view>
-        <text wx:if="{{isceshi_1}}" class="font_2 text_5">待测试</text>
+        <text wx:if="{{!isceshi_1}}" class="font_2 text_5">待测试</text>
       </view>
       <image
         class="image_2 pos"
-        src="https://ide.code.fun/api/image?token=66d008345fdd2800116c8b16&name=1774b1d77bcbcf8160a1c003b523d1cf.png"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/SrXkhtFlaklqmxxe3I4DpCHXMcYrIBoW/arrow.png"
       />
     </view>
     <view  bindtap="gotest_2" class="flex-col justify-start relative group">
@@ -38,14 +38,14 @@
           <text class="font_3 text_6">回声场景</text>
           <image
             class="shrink-0 image_4 ml-13"
-            src="https://ide.code.fun/api/image?token=66d008345fdd2800116c8b16&name=c1b970fcad3de0d14a2836965aefa91e.png"
+            src="http://lc-KixOdMjP.cn-n1.lcfile.com/MEURL2XWEuFsARPQowi7AxllEX0mofr3/%E5%9B%9E%E5%A3%B0.png"
           />
         </view>
-        <text wx:if="{{isceshi_2}}" class="font_2 text_7">待测试</text>
+        <text wx:if="{{!isceshi_2}}" class="font_2 text_7">待测试</text>
       </view>
       <image
         class="image_2 pos_2"
-        src="https://ide.code.fun/api/image?token=66d008345fdd2800116c8b16&name=1774b1d77bcbcf8160a1c003b523d1cf.png"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/SrXkhtFlaklqmxxe3I4DpCHXMcYrIBoW/arrow.png"
       />
     </view>
     <view  bindtap="gotest_3" class="flex-col justify-start relative list-item view_1">
@@ -54,14 +54,14 @@
           <text class="font_3 text_8">倍速场景</text>
           <image
             class="shrink-0 image_5 ml-7"
-            src="https://ide.code.fun/api/image?token=66d008345fdd2800116c8b16&name=56e650588894f409f169bb65ccfef45b.png"
+            src="http://lc-KixOdMjP.cn-n1.lcfile.com/Lfc1d6PMb7cQoqINJnYRRLNeRMFOz4Bb/%E5%80%8D%E9%80%9F.png"
           />
         </view>
-        <text wx:if="{{isceshi_3}}" class="font_2 text_9">待测试</text>
+        <text wx:if="{{!isceshi_3}}" class="font_2 text_9">待测试</text>
       </view>
       <image
         class="image_2 pos_3"
-        src="https://ide.code.fun/api/image?token=66d008345fdd2800116c8b16&name=1774b1d77bcbcf8160a1c003b523d1cf.png"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/SrXkhtFlaklqmxxe3I4DpCHXMcYrIBoW/arrow.png"
       />
     </view>
     <view  bindtap="gotest_4" class="flex-col justify-start relative group_3">
@@ -70,14 +70,14 @@
           <text class="font_3 text_11">环境噪声</text>
           <image
             class="shrink-0 image_4 ml-12"
-            src="https://ide.code.fun/api/image?token=66d008345fdd2800116c8b16&name=0294a2cd220719cf8df17dd595ee3373.png"
+            src="http://lc-KixOdMjP.cn-n1.lcfile.com/hkYeqDvO9My9GbfhJUhgjawVzy8Vaa7H/%E7%8E%AF%E5%A2%83.png"
           />
         </view>
-        <text wx:if="{{isceshi_4}}" class="self-start font_2 text_10">待测试</text>
+        <text wx:if="{{!isceshi_4}}" class="self-start font_2 text_10">待测试</text>
       </view>
       <image
         class="image_2 pos_4"
-        src="https://ide.code.fun/api/image?token=66d008345fdd2800116c8b16&name=1774b1d77bcbcf8160a1c003b523d1cf.png"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/SrXkhtFlaklqmxxe3I4DpCHXMcYrIBoW/arrow.png"
       />
     </view>
     <view bindtap="gotobaogao" class="flex-col justify-start relative list-item group_4">
@@ -85,14 +85,14 @@
         <text class="font_3 text_12">综合报告</text>
         <image
           class="image_6 ml-13"
-          src="https://ide.code.fun/api/image?token=66d008345fdd2800116c8b16&name=ac74025d1a0a523ab28aafb151210cea.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/jpIoXiKPTE2fc4A9uqdg5E2bnVALxo7B/%E8%AF%AD%E8%B0%B1%20%283%29.png"
         />
       </view>
       <image
         class="image_2 pos_5"
-        src="https://ide.code.fun/api/image?token=66d008345fdd2800116c8b16&name=1774b1d77bcbcf8160a1c003b523d1cf.png"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/SrXkhtFlaklqmxxe3I4DpCHXMcYrIBoW/arrow.png"
       />
-      <text wx:if="{{isjiesuo}}" class="font_2 text_13 pos_6">待解锁</text>
+      <text wx:if="{{!isjiesuo}}" class="font_2 text_13 pos_6">待解锁</text>
     </view>
   </view>
 </view>

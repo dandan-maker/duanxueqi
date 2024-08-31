@@ -2,16 +2,13 @@
 <view class="flex-col page">
   <image
     class="self-center image"
-    src="https://ide.code.fun/api/image?token=66cd7c3e5fdd2800116c62b6&name=f67051e0a98de1dce7dbf67001896099.png"
+    src="http://lc-KixOdMjP.cn-n1.lcfile.com/6DK7tJUsJVW5NjhOLMnCbW2myc9CqsMD/%E5%A4%B4%E5%83%8F.png"
   />
   <view class="flex-col self-stretch mt-12">
     <view class="flex-col section">
       <view class="flex-row group">
         <text class="font text_1">语谱噪声测试</text>
-        <image
-          class="image_2 ml-9"
-          src="https://ide.code.fun/api/image?token=66cd7c3e5fdd2800116c62b6&name=4e4336e503ac4e6638a74d12b016eb3d.png"
-        />
+        
       </view>
       <view class="flex-row justify-between mt-13">
         <view class="section_2">
@@ -29,10 +26,7 @@
     <view class="flex-col section_3 mt-12">
       <view class="flex-row group_2">
         <text class="font text">回声测试</text>
-        <image
-          class="image_2 ml-7"
-          src="https://ide.code.fun/api/image?token=66cd7c3e5fdd2800116c62b6&name=4e4336e503ac4e6638a74d12b016eb3d.png"
-        />
+        
       </view>
       <view class="flex-row justify-between mt-16">
         <view class="section_2">
@@ -49,10 +43,7 @@
     <view class="flex-col relative section_4 mt-12">
       <view class="flex-row items-center self-stretch group_3">
         <text class="font text_2">倍速测试</text>
-        <image
-          class="image_2 ml-5"
-          src="https://ide.code.fun/api/image?token=66cd7c3e5fdd2800116c62b6&name=4e4336e503ac4e6638a74d12b016eb3d.png"
-        />
+        
       </view>
       <view class="section_2">
   <view class="dropdown-selected" bindtap="showOptions_2">{{selectedItem_2.text || '请选择'}}</view>
@@ -67,10 +58,7 @@
     <view class="flex-col relative section_5 mt-12">
       <view class="flex-row items-center self-stretch group_4">
         <text class="font text_3">环境噪声测试</text>
-        <image
-          class="image_2 ml-8"
-          src="https://ide.code.fun/api/image?token=66cd7c3e5fdd2800116c62b6&name=4e4336e503ac4e6638a74d12b016eb3d.png"
-        />
+       
       </view>
       <view class="section_2">
   <view class="dropdown-selected" bindtap="showOptions_3">{{selectedItem_3.text || '请选择'}}</view>

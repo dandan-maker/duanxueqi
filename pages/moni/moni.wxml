@@ -1,0 +1,36 @@
+<!--pages/moni/moni.wxml-->
+
+  <view class="view_contain">
+    <view class="view_1">
+      <button class="hand" bindtap="toHand">手动模拟</button>
+    
+    </view>
+    <view class="view_2">
+      <text class="title">场景选择</text>
+    </view>
+    <view class="view_3">
+      <button class="button-1" bindtap="change">低频损失</button>
+      <button class="button-1" bindtap="change">高频损失</button>
+      <button class="button-1" bindtap="change">耳鸣</button>
+    </view>
+    <view class="view_2">
+      <text class="title">听力损失类别</text>
+    </view>
+      <view class="view_3">
+      <button class="button-1" bindtap="change">低频损失</button>
+      <button class="button-1" bindtap="change">高频损失</button>
+      <button class="button-1" bindtap="change">耳鸣</button>
+    </view>
+    <view class="view_2">
+      <text class="title">听力损失程度</text>
+    </view>
+    <view class="view_4">
+      <button class="button-2" bindtap="change">正常听力</button>
+      <button class="button-2" bindtap="change">轻度损失</button>
+      <button class="button-2" bindtap="change">中度损失</button>
+      <button class="button-2" bindtap="change">重度损失</button>
+    </view>
+    <view class="view_5">
+      <button class="button-3" bindtap="play">播放</button>
+    </view>
+  </view>

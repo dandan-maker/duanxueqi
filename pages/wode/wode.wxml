@@ -1,9 +1,9 @@
 <!--pages/wode/wode.wxml-->
 <view class="flex-col page">
   <view class="flex-col section">
-    <image
+    <image 
       class="self-start image"
-      src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=4664d91efddcacd9932cb7801ff4bf06.png"
+      src="http://lc-KixOdMjP.cn-n1.lcfile.com/X5nmoGbU0cplI8J4S9L7zY6m7MIntCOT/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83.png"
     />
     <view class="flex-row justify-center self-stretch group mt-7">
       <view class="flex-row">
@@ -16,7 +16,7 @@
       <view bindtap="gotoxinxi" class="flex-row items-center self-start section_2 ml-20">
         <image
           class="shrink-0 image_3"
-          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=1b0d31d31f9a76181d63bfa7d9c793fb.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/OKbIt7d0YybEq2GuhNpa87L7VRoEfKVE/%E9%93%85%E7%AC%94%20%281%29.png"
         />
         <text class="text_2">编辑个人信息</text>
       </view>
@@ -28,65 +28,65 @@
         <view class="flex-row items-center self-start">
           <image
             class="shrink-0 image_4"
-            src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=21ad26e2a6e705b8a0b26dd4ad1e08dd.png"
+            src="http://lc-KixOdMjP.cn-n1.lcfile.com/TMjjCtNA7NQNSasyn3T0bVpJ4NKrTl0m/%E5%AE%B6%E5%BA%AD%E6%88%90%E5%91%98.png"
           />
           <text class="font text_3 ml-31">家庭成员</text>
         </view>
         <image
           class="self-center image_5 image_6"
-          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ba596d12924ac406931e9356a4ca3fbb.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/azqaMRQj31tPdntXJL86jXXHvPiEeEuD/%E7%AE%AD%E5%A4%B4.png"
         />
       </view>
       <view bindtap="xiazai" class="flex-row justify-between items-center list-item_2">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_8"
-            src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ff2aa929a488a53ccd5b1faaf092bd25.png"
+            src="http://lc-KixOdMjP.cn-n1.lcfile.com/v8zhyTpq96MacGYVpU8IVXCI5I8oB7WF/%E9%9F%B3%E9%A2%91.png"
           />
           <text class="font text_4 ml-33">音频下载</text>
         </view>
         <image
           class="image_5 image_7"
-          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ba596d12924ac406931e9356a4ca3fbb.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/azqaMRQj31tPdntXJL86jXXHvPiEeEuD/%E7%AE%AD%E5%A4%B4.png"
         />
       </view>
       <view class="flex-row justify-between items-center list-item_2">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_4"
-            src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=8eee4bf92c1e73cc8e5ec7976d886ac6.png"
+            src="http://lc-KixOdMjP.cn-n1.lcfile.com/oj7QGkNvW7lFjya78b6GTN4TVSBclhVM/%E5%AE%89%E5%85%A8%E9%9A%90%E7%A7%81.png"
           />
           <text class="font ml-31">隐私协议</text>
         </view>
         <image
           class="image_5 image_7"
-          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ba596d12924ac406931e9356a4ca3fbb.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/azqaMRQj31tPdntXJL86jXXHvPiEeEuD/%E7%AE%AD%E5%A4%B4.png"
         />
       </view>
       <view bindtap="gotozixun" class="flex-row justify-between items-center list-item_3">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_5"
-            src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=c3836f299e6f3bea2277cf936e491979.png"
+            src="http://lc-KixOdMjP.cn-n1.lcfile.com/HPdaQWDRMXEU15fYfLYszknRBY7eh9oV/%E5%AE%A2%E6%9C%8D.png"
           />
           <text class="font text_5 ml-26">在线咨询</text>
         </view>
         <image
           class="image_5 image_9"
-          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ba596d12924ac406931e9356a4ca3fbb.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/azqaMRQj31tPdntXJL86jXXHvPiEeEuD/%E7%AE%AD%E5%A4%B4.png"
         />
       </view>
       <view bindtap="gotowomen" class="flex-row justify-between items-center list-item_4">
         <view class="flex-row items-center">
           <image
             class="shrink-0 image_10"
-            src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=f44f8d9928ea94dcc96cee88f5dd658c.png"
+            src="http://lc-KixOdMjP.cn-n1.lcfile.com/WXMJBRwQEccIfCKDpMOLe8asqxunCN1n/%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC.png"
           />
           <text class="font text_6 ml-25">关于我们</text>
         </view>
         <image
           class="image_5 image_11"
-          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=ba596d12924ac406931e9356a4ca3fbb.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/azqaMRQj31tPdntXJL86jXXHvPiEeEuD/%E7%AE%AD%E5%A4%B4.png"
         />
       </view>
     </view>

@@ -14,27 +14,21 @@
     <view class="flex-row items-center group_3" bindtap="addpeople">
       <image
         class="image_2"
-        src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=b40038faafa8915f0e25c726fdf07c5c.png"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/j6qqRbPo7lOuvrN4zmQ7Cp3qx4KcMKAD/%E5%8A%A0%E5%8F%B7.png"
       />
       <text class="text_3 ml-9">添加联系人</text>
     </view>
     <scroll-view scroll-y="true" style="height: 700rpx;" class="flex-col section_2">
-      <view bindtap="gotomember" class="flex-col justify-start relative group_4">
+      <view data-id="{{index}}" wx:for="{{family}}" wx:key="index" bindtap="gotomember" class="flex-col justify-start relative group_4">
         <view class="flex-col justify-start items-start text-wrapper">
-          <text class="font text_4 text_5">女儿</text>
+          <text class="font text_4 text_5">{{item.name}}</text>
         </view>
         <image
           class="image_3 pos"
-          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=aadd4cdcaf8feb0fac595f375fa2ac28.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/SrXkhtFlaklqmxxe3I4DpCHXMcYrIBoW/arrow.png"
         />
       </view>
-      <view class="flex-col justify-start relative group_4">
-        <view class="flex-col justify-start items-start text-wrapper_2"><text class="font text_4">爸爸</text></view>
-        <image
-          class="image_3 pos_2"
-          src="https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=aadd4cdcaf8feb0fac595f375fa2ac28.png"
-        />
-      </view>
+      
       
     </scroll-view>
   </view>

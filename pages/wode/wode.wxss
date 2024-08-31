@@ -24,8 +24,9 @@
 }
 .section {
   padding: 48rpx 8rpx 96rpx 44rpx;
+  border:solid #7881a3 10rpx;
   border-radius: 68rpx;
-  background-image: url('https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=225ad94e16ce14ae9724b77f605f1e36.png');
+  background-image: url('http://lc-KixOdMjP.cn-n1.lcfile.com/Ao0ya0wfdbfF1QLMs9M0hR58GAboYPSU/%E6%88%91%E7%9A%84.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }

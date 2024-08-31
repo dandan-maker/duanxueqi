@@ -3,6 +3,10 @@
 //引入外部函数
 import {playAudio} from '../util_testpages.js'
 
+const app = getApp()
+const AV = require('../../../libs/av-core-min.js');
+const user = AV.User.current();
+
 Page({
   data: {
     prog: 0,
@@ -22,6 +26,7 @@ Page({
     iptShow: true,
     iptValue: "",
     origin:'',
+    id:'',
     scene_num: 3,
     set_num: 0,
     question_num: 0
@@ -30,14 +35,15 @@ Page({
   onLoad(options) {
     //开启左上角返回键弹窗提醒
     wx.enableAlertBeforeUnload({
-      message: '测试尚未结束，是否退出？',
+      message: '测试尚未结束，是否退出？'
     })
+    //现在把testpages的跳转从wx.relaunch改成wx.navigateTo了，会更合理一点，relaunch会销毁先前所有页面；navigateTo会自己记录页面栈，跳回上级页面。
     //记录上级页面来源：测试中心 or 家庭成员；
-    /* //现在testpages的跳转从relaunch改成navigateTo了，可以不使用origin参数，微信会自己记录页面栈，跳回上级页面
     let origin = options.origin
     this.setData({
-      origin: origin
-    }) */
+      origin: origin,
+      id:options.id
+    }) 
     //自动播放第一段测试音频
     playAudio(this.data.scene_num, this.data.set_num, this.data.question_num)
   },
@@ -72,18 +78,17 @@ Page({
 
   //点击“返回”的函数
   onBackHome() {
-    //返回
-    /* if(this.data.origin==1){
-      wx.reLaunch({
-        url: '/pages/index/index',
-      });
+    if(this.data.origin==2){
+      let family=user.get("family")
+      family[this.data.id].isceshi_4=true
+      user.set("family",family)
+      user.save()
+      // 这里不知道都使用下面的 wx.navigateBack() 的话，会不会navigateBack回这个带有?id=的member界面？如果从member界面点进来测试的时候，member界面是带有?id=的话，应该是可以回去的
+      // wx.reLaunch({
+      //   url: '/pages/member/member?id='+this.data.id,
+      // })
     }
-    else if(this.data.origin==2){
-      wx.reLaunch({
-        url: '/pages/member/member',
-      });
-    } */
-    wx.navigateBack()
+    wx.navigateBack() //改用navigateBack，配合navigateTo
   },
 
   //在输入框中输入答案的函数，将用户输入内容存储到this.data当中
