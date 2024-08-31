@@ -13,7 +13,7 @@
 .section {
   padding: 28rpx 56rpx 24rpx;
   border-radius: 80rpx;
-  background-image: url('https://ide.code.fun/api/image?token=66ceb0215fdd2800116c706c&name=3dfc4dab4f73fac02b961f803b6785a8.png');
+  background-image: url('http://lc-KixOdMjP.cn-n1.lcfile.com/RSAPQyWY5EUMuWBtzi4B1WVUel2IzrTj/family.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }

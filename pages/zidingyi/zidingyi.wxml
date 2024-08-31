@@ -1,7 +1,7 @@
 <!--pages/zidingyi/zidingyi.wxml-->
 <view class="flex-col page">
   <text class="self-center text">自定义</text>
-  <input placeholder="输入家人关系" class="self-stretch section"></input>
+  <input bindinput="getrelation" placeholder="输入家人关系" class="self-stretch section"></input>
   <view class="flex-row self-stretch group">
     <view bindtap="goback" class="flex-col justify-start items-center text-wrapper"><text class="font text_2">取消</text></view>
     <view bindtap="gotoxinxi" class="flex-col justify-start items-center text-wrapper_2 ml-41"><text class="font text_3">确认</text></view>

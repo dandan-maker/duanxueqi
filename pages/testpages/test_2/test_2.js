@@ -1,4 +1,7 @@
 // pages/testpages/test_1/test_1.js
+const app = getApp()
+const AV = require('../../../libs/av-core-min.js');
+const user = AV.User.current();
 Page({
   data: {
     prog: 0,
@@ -17,14 +20,16 @@ Page({
     isEnd: false,
     iptShow: true,
     iptValue: "",
-    origin:''
+    origin:'',
+    id:''
   },
 
   onLoad(options) {
     //等待2s后自动播放第一段测试音频
   let origin=options.origin;
   this.setData({
-    origin:origin
+    origin:origin,
+    id:options.id
   })
 
   },
@@ -48,9 +53,15 @@ Page({
       //等待1s后自动播放下一段测试音频
       
     } else {  //已经到达100%进度，此时点击“继续测试”
+      if(this.data.origin==2){
+        let family=user.get("family");
+family[this.data.id].isceshi_2=true;
+user.set("family",family);
+user.save();
+      }
       //点击“继续测试”，跳转下一个测试场景
       wx.reLaunch({
-        url: '/pages/testpages/test_3/test_3?origin='+1,
+        url: '/pages/testpages/test_3/test_3?origin='+this.data.origin+'&id='+this.data.id,
       });
     }
   },
@@ -64,8 +75,12 @@ Page({
     });
   }
   else if(this.data.origin==2){
+    let family=user.get("family");
+family[this.data.id].isceshi_2=true;
+user.set("family",family);
+user.save();
     wx.reLaunch({
-      url: '/pages/member/member',
+      url: '/pages/member/member?id='+this.data.id,
     });}
  
   },

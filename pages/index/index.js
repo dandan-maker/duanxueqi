@@ -1,4 +1,7 @@
 // index.js
+const app = getApp()
+const AV = require('../../libs/av-core-min.js');
+const user = AV.User.current();
 Page({
   data: {
     testscene_1_3: [{
@@ -32,5 +35,6 @@ Page({
     wx.reLaunch({
       url: '/pages/testpages/test_'+target_scene+'/test_'+target_scene+'?origin='+1,
     })
-  }
+  },
+  
 })
