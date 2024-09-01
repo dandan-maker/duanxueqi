@@ -61,9 +61,11 @@ pageLifetimes: {
     onClick() {
       wx.navigateBack();
     },
+    
     closePage() {
       this.triggerEvent('closePopup');  // 触发自定义事件
     },
+
     // 接收来自baogao.js的参数
     receiveData(data) {
       // 设置接收到的数据到组件的 data 中

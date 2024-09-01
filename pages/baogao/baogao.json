@@ -2,7 +2,7 @@
   "usingComponents": {
     "van-popup": "@vant/weapp/popup/index",
     "YupuONE": "../../components/yupuONE/yupuONE",
-
+    "Zongheceshi": "../../components/zongheceshi/zongheceshi",
     "van-circle": "@vant/weapp/circle/index"
   }
 

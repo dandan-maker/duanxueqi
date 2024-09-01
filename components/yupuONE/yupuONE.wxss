@@ -47,6 +47,7 @@
 .image_2 {
   width: 124.32rpx;
   height: 124.32rpx;
+  background-color: #FFFFFF;
 }
 .text-wrapper {
   padding: 28.92rpx 0 28.68rpx;
@@ -61,7 +62,7 @@
   font-size: 36.68rpx;
   font-family: SourceHanSansCN;
   line-height: 34.12rpx;
-  text-shadow: 0 1.02rpx #333333, 0 -1.02rpx #333333, 1.02rpx 0 #333333, -1.02rpx 0 #333333;
+  /* text-shadow: 0 1.02rpx #333333, 0 -1.02rpx #333333, 1.02rpx 0 #333333, -1.02rpx 0 #333333; */
 }
 .image {
   opacity: 0.4;

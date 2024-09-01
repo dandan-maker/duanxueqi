@@ -2,6 +2,7 @@ Page({
   data: {
     // 控制弹出层是否可见的变量,true表示可见
     popupVisible: false,  
+    popupVisible1: false,
 
     // 语谱噪声页面对应的传递参数1
     dataYupu:1,
@@ -113,16 +114,16 @@ onPop4(){
   // 点击综合得分查看答案，执行onPop5
 onPop5(){
   // 打开弹层
-    this.setData({ popupVisible: true });
+    this.setData({ popupVisible1: true });
   
   // 传递数据给yupuONE.js
      // 获取组件的实例
-    const yupuONE = this.selectComponent("#yupuONEComponent");
+    // const yupuONE = this.selectComponent("#yupuONEComponent");
   
      // 调用组件中的方法，并传递参数
-    if (yupuONE) {
-    yupuONE.receiveData(this.data.dataZonghe);
-    }
+  //   if (yupuONE) {
+  //   yupuONE.receiveData(this.data.dataZonghe);
+  //   }
   },
   
 
@@ -132,10 +133,24 @@ handleClosePopup() {
     });
   },
 
+  handleClosePopup1() {
+    this.setData({
+      popupVisible1: false  // 将 popupVisible 设置为 false 关闭弹窗
+    });
+  },
+
 // 关闭弹层
   onClose() {
     this.setData({ popupVisible: false });
   },
+
+  onClose1() {
+    this.setData({ popupVisible1: false });
+  },
+
+
+  
+
 
 
 

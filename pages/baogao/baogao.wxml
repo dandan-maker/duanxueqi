@@ -3,7 +3,7 @@
  
   <image
     class="self-start image"
-    src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=27c9b1ab9a73f78aa52db472523e3b63.png"
+    src="http://lc-KixOdMjP.cn-n1.lcfile.com/Wgz7YlmWoNI7m93GOsG0tbz1B3M5LHtM/%E6%8A%A5%E5%91%8A%E9%A1%B5%E9%9D%A2-%E6%9D%A1%E5%B8%A6.png"
   />
   
 
@@ -14,14 +14,14 @@
         <text class="font">语谱噪声测试</text>
         <image
           class="image_2 ml-10"
-          src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=d22176f6bba5a1ecc8b7bd4a53cc1317.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/YHnbV9pGKSgcRDtyYNJ7mgJWbtPEjt7H/%E6%8A%A5%E5%91%8A%E9%A1%B5-%E5%BC%B9%E5%B1%82-%E5%A4%A7%E5%96%87%E5%8F%AD.svg"
         />
       </view>
 
       <text class="self-start font_2 text">多人同时讲话形成的类似平稳宽带噪声</text>
 
  
- <view class="flex-row justify-center self-start group_3 mt-12">
+ <view class="flex-row justify-between group_3 mt-12">
   <van-circle
      value="{{testScore[0]}}"
      layer-color="#eeeeee"
@@ -30,7 +30,6 @@
      size="97"
      stroke-width="9"
      class="shrink-0"
-     style="position: relative; left: -12px;"
   />
   <view class="text-container ml-4">
     <text class="font_3_new">{{testScore[0]}}</text>
@@ -52,13 +51,13 @@
         <text class="font text_4">回声测试</text>
         <image
           class="image_2 ml-17"
-          src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=216feaaa0f855d390045484bbccae6d5.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/NWiGnGr5LVJdQlSVtXDtjIrD9udK7Bdl/%E6%8A%A5%E5%91%8A%E9%A1%B5-%E5%A4%B4%E6%88%B4%E8%80%B3%E6%9C%BA.png"
         />
       </view>
 
       <text class="self-start font_2 text_5">与原声区分开的反射声波</text>
 
-      <view class="flex-row justify-center self-start group_3 mt-12">
+      <view class="flex-row justify-between group_3 mt-12">
   <van-circle
      value="{{testScore[1] }}"
      layer-color="#eeeeee"
@@ -67,7 +66,7 @@
      size="97"
      stroke-width="9"
      class="shrink-0"
-     style="position: relative; left: -12px;"
+     style="position: relative; left: -12rpx;"
   />
   <view class="text-container ml-4">
     <text class="font_3_new">{{testScore[1]}}</text>
@@ -85,13 +84,13 @@
         <text class="font">倍速测试</text>
         <image
           class="image_2 ml-18"
-          src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=24b901aedd62a7c82b9bd9e74bfd82ab.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/4M7dqRG6cKWTEFr5P1tAvKPnIJUzdEFF/%E6%8A%A5%E5%91%8A%E9%A1%B5%E6%8C%AF%E5%8A%A8%E9%9F%B3%E6%B3%A2.png"
         />
       </view>
 
       <text class="self-start font_2 text_6">调整音频播放速度后耳朵的适应能力</text>
 
-      <view class="flex-row justify-center self-start group_3 mt-12">
+      <view class="flex-row justify-between group_3 mt-12">
   <van-circle
      value="{{testScore[2] }}"
      layer-color="#eeeeee"
@@ -116,13 +115,13 @@
         <text class="font text_7">环境噪声测试</text>
         <image
           class="image_2 ml-13" 
-          src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=32e6e68632517201f1fa0d94749d04f0.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/NjYxPOb0M0b6Gzlv6Mfp5kaGzrgaOdhK/%E6%8A%A5%E5%91%8A%E9%A1%B5%E4%BA%BA%E5%A4%B4%E5%83%8F.png"
         />
       </view>
 
       <text class="self-start font_2 text_8">在社会生活中所产生的干扰周围生活环境的声音</text>
 
-      <view class="flex-row justify-center self-start group_3 mt-12">
+      <view class="flex-row justify-between group_3 mt-12">
   <van-circle
      value="{{testScore[3] }}"
      layer-color="#eeeeee"
@@ -147,13 +146,13 @@
         <text class="font">综合测试得分</text>
         <image
           class="image_2 ml-13" 
-          src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=a1ab416c63016f51fc4063ed08e0d05d.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/4E7xax0KWJoPijFDPO4bOz0lnTDbiPR5/%E6%8A%A5%E5%91%8A%E9%A1%B5%E7%AE%AD%E5%A4%B4.png"
         />
       </view>
 
       <text class="self-start font_2 text_9">得分越高，综合听力能力越强</text>
 
-      <view class="flex-row justify-center self-start group_3 mt-12">
+      <view class="flex-row justify-between group_3 mt-12">
   <van-circle
      value="{{testScore[4] }}"
      layer-color="#eeeeee"
@@ -170,12 +169,16 @@
   </view>
 </view>
 
-      <view class="flex-col justify-start text-wrapper pos_1"><text class="font_3 text_2" bind:tap="onPop5">查看题目答案</text></view>
+      <view class="flex-col justify-start text-wrapper pos_1"><text class="font_3 text_2" bind:tap="onPop5">查看评分标准</text></view>
     </view>
   </view>
 
 <van-popup position="center" show="{{ popupVisible }}" bind:close="onClose">
   <YupuONE id="yupuONEComponent" bind:closePopup="handleClosePopup"></YupuONE>
+</van-popup>
+
+<van-popup position="center" show="{{ popupVisible1}}" bind:close="onClose1">
+  <Zongheceshi id="zongheceshiComponent" bind:closePopup1="handleClosePopup1"></Zongheceshi>
 </van-popup>
 
 </view>

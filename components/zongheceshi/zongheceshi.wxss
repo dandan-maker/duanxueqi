@@ -1,4 +1,63 @@
+/* components/zongheceshi/zongheceshi.wxss */
 
+.page {
+  padding: 22.42rpx 0 253.74rpx;
+  background-color: #f7e9e8;
+  border-radius: 61.14rpx;
+  border: solid 10.19rpx #777777;
+  max-height: 960rpx;
+}
+.close-button {
+  position: fixed; /* 固定位置 */
+  top: 10px; /* 距离顶部的距离 */
+  right: 20px; /* 距离右侧的距离 */
+  width: 30px; /* 按钮的宽度 */
+  height: 30px; /* 按钮的高度 */
+  background-color: #f7e9e8; /* 背景颜色 */
+  color: #797979; /* 字体颜色 */
+  text-align: center; /* 文本居中 */
+  line-height: 30px; /* 行高，与高度一致，使“×”居中 */
+  border-radius: 50%; /* 圆形按钮 */
+  font-size: 40px; /* 字体大小 */
+  z-index: 1000; /* 层级 */
+  cursor: pointer; /* 鼠标移上去显示手型（在模拟器中有效） */
+}
+
+.group {
+  margin-left: 8.15rpx;
+  padding-top: 56.05rpx;
+  width: 729.84rpx;
+
+}
+.section {
+  background-color: #ffffff;
+  width: 613.45rpx;
+  height: 813.45rpx;
+  border: solid 2.04rpx #777777;
+  overscroll-behavior:contain;
+
+}
+.list {
+  width: 580.79rpx;
+
+}
+.pos_2 {
+  position: absolute;
+  left: 70.52rpx;
+  top: 89.71rpx;
+
+}
+.font {
+  margin-left: 4.57rpx;
+  color: #726d6d;
+  font-size: 43.61rpx;
+  font-family: SourceHanSansCN;
+  line-height: 50.22rpx;
+  scroll-behavior:inherit;
+}
+
+
+/* 全局 */
 body {
   width: 100vw;
   height: 100vh;
@@ -110,7 +169,6 @@ text {
 
 .shrink-0 {
   flex-shrink: 0;
-  margin-left: 30rpx
 }
 
 .relative {
@@ -516,242 +574,3 @@ text {
 .mt-100 {
   margin-top: 192.31rpx;
 }
-
-/** 清理默认样式 **/
-
-wx-scroll-view,
-wx-swiper,
-wx-icon,
-wx-progress,
-wx-rich-text,
-wx-button,
-wx-checkbox,
-wx-checkbox-group,
-wx-form,
-wx-input,
-wx-label,
-wx-picker,
-wx-radio,
-wx-radio-group,
-wx-slider,
-wx-switch,
-wx-textarea {
-  box-sizing: border-box;
-  flex-shrink: 0;
-}
-
-wx-button {
-  padding: unset;
-  border-radius: unset;
-  background-color: unset;
-}
-
-wx-button::after {
-  border: unset;
-}
-
-wx-input {
-  height: unset;
-}
-
-wx-checkbox .wx-checkbox-wrapper,
-wx-radio .wx-radio-wrapper {
-  vertical-align: top;
-}
-
-wx-checkbox .wx-checkbox-input,
-wx-radio .wx-radio-input,
-wx-switch .wx-switch-input,
-wx-switch .wx-checkbox-input {
-  margin-right: unset;
-}
-
-wx-switch .wx-switch-input::after {
-  border-radius: 50%;
-}
-
-
-
-
-.mt-29 {
-  margin-top: 55.77rpx;
-}
-.ml-17 {
-  margin-left: 32.69rpx;
-}
-.ml-13 {
-  margin-left: 25rpx;
-}
-.mt-25 {
-  margin-top: 48.08rpx;
-}
-.page {
-  padding: 111.54rpx 0 30.77rpx;
-  background-color: #f7e9e8;
-  width: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-  height: 100%;
-}
-.image {
-  margin-left: -28.85rpx;
-  width: 107.6923vw;
-  height: 40.7692vw;
-}
-.list {
-  margin-left: 25rpx;
-  margin-right: 26.92rpx;
-}
-.section {
-  padding: 28.85rpx 40.35rpx 30rpx 40.37rpx;
-  background-color: #fdf3b9;
-  border-radius: 38.46rpx;
-  /* max-height:320rpx; */
-}
-.font {
-  font-size: 42.31rpx;
-  font-family: SourceHanSansCN;
-  line-height: 39.27rpx;
-  color: #000000;
-}
-.image_2 {
-  width: 46.15rpx;
-  height: 46.15rpx;
-}
-.font_2 {
-  font-size: 26.92rpx;
-  font-family: SourceHanSansCN;
-  line-height: 25.17rpx;
-  color: #726d6d;
-}
-.text {
-  margin-top: 27.58rpx;
-  line-height: 25.44rpx;
-}
-.text-wrapper {
-  padding: 16.06rpx 0 15rpx;
-  background-color: #ffffff;
-  border-radius: 7.69rpx;
-  width: 232.69rpx;
-  border: solid 1.92rpx #797979;
-}
-.pos_4 {
-  margin-left: 65%
-}
-.font_3 {
-  font-size: 36.54rpx;
-  font-family: 楷体;
-  line-height: 32.4rpx;
-  color: #000000;
-}
-.font_3_new{
-  font-size: 107.69rpx;
-  font-family: PangMenZhengDao;
-  line-height: 72.27rpx;
-  color: #000000;
-  text-shadow: 0 4.04rpx #000000, 0 -4.04rpx #000000, 4.04rpx 0 #000000, -4.04rpx 0 #000000;
-}
-.font_4 {
-  font-size: 57.69rpx;
-  font-family: PangMenZhengDao;
-  line-height: 49.04rpx;
-  color: #726d6d;
-  text-shadow: 0 2.04rpx #726d6d, 0 -2.04rpx #726d6d, 2.04rpx 0 #726d6d, -2.04rpx 0 #726d6d;
-}
-.text_2 {
-  margin-left: 9.13rpx;
-}
-
-.text_3 {
-  color: #333333;
-}
-
-.section_2 {
-  padding: 28.85rpx 40.35rpx 30rpx 40.37rpx;
-  background-color: #bcdbca;
-  border-radius: 38.46rpx
-}
-.text_4 {
-  line-height: 39.21rpx;
-}
-.text_5 {
-  margin-top: 27.73rpx;
-  line-height: 25.02rpx;
-}
-.pos {
-  margin-left: 65%
-}
-.section_3 {
-  padding: 28.85rpx 40.35rpx 30rpx 40.37rpx;
-  background-color: #c2e5ea;
-  border-radius: 38.46rpx
-}
-.group {
-  margin-top: 38.92rpx;
-
-}
-.group_2 {
-  width: 132.69rpx;
-  height: 49.04rpx;
-}
-.group_3{
-  margin-left: 27.67rpx;
-  margin-top: 50rpx;
-}
-.text_6 {
-  margin-top: 27.73rpx;
-}
-.view {
-  margin-left: 65%
-}
-.section_4 {
-  padding: 28.85rpx 40.35rpx 30rpx 40.37rpx;
-  background-color: #f1d5e1;
-  border-radius: 38.46rpx
-}
-.text_7 {
-  line-height: 39.38rpx;
-}
-.text_8 {
-  margin-top: 27.73rpx;
-}
-.pos_3 {
-  margin-left: 65%
-}
-.section_5 {
-  padding: 28.85rpx 40.35rpx 30rpx 40.37rpx;
-  background-color: #cdcfe8;
-  border-radius: 38.46rpx
-}
-.text_9 {
-  margin-top: 27.71rpx;
-  line-height: 25.63rpx;
-}
-.pos_1 {
-  margin-left: 65%
-}
-.pos_11{
-  margin-top: 15.02rpx;
-  margin-left: 90rpx;
-}
-.pos_12 {
-  position: absolute;
-  right: 179.29rpx;
-  top: 177.04rpx;
-}
-.pos_13 {
-  margin-top: 55.88rpx;
-}
-.pos_huan{
-  position: absolute;
-  left: 67.29rpx;
-  bottom: 23.08rpx;
-}
-
-.text-container{
-  display: flex;
-  align-items: center; /* 让基线对齐 */
-  margin-right: 60rpx;
-  margin-bottom: 40rpx;
-}
-/* 全局 */
