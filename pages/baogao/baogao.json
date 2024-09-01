@@ -1,8 +1,10 @@
 {
   "usingComponents": {
     "van-popup": "@vant/weapp/popup/index",
-    "YupuONE": "../../components/yupuONE/yupuONE"
+    "YupuONE": "../../components/yupuONE/yupuONE",
 
-  },
-  "navigationStyle": "custom"
+    "van-circle": "@vant/weapp/circle/index"
+  }
+
+
 }

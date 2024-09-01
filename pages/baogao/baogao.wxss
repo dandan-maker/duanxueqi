@@ -605,6 +605,7 @@ wx-switch .wx-switch-input::after {
   padding: 28.85rpx 40.35rpx 195.06rpx 40.37rpx;
   background-color: #fdf3b9;
   border-radius: 38.46rpx;
+  max-height:320rpx;
 }
 .font {
   font-size: 42.31rpx;
@@ -636,7 +637,7 @@ wx-switch .wx-switch-input::after {
 .pos_4 {
   position: absolute;
   right: 8.96rpx;
-  top: 243.5rpx;
+  top: 244.5rpx;
 }
 .font_3 {
   font-size: 36.54rpx;
@@ -670,6 +671,7 @@ wx-switch .wx-switch-input::after {
   padding: 28.85rpx 40rpx 195.33rpx;
   background-color: #bcdbca;
   border-radius: 38.46rpx;
+  max-height: 320rpx;
 }
 .text_4 {
   line-height: 39.21rpx;
@@ -687,6 +689,7 @@ wx-switch .wx-switch-input::after {
   padding: 28.85rpx 39.62rpx 168.35rpx 39.62rpx;
   background-color: #c2e5ea;
   border-radius: 38.46rpx;
+  max-height: 320rpx;
 }
 .group {
   margin-top: 38.92rpx;
@@ -696,18 +699,23 @@ wx-switch .wx-switch-input::after {
   width: 132.69rpx;
   height: 49.04rpx;
 }
+.group_3{
+  margin-left: 27.67rpx;
+  width: 464.96rpx;
+}
 .text_6 {
   margin-top: 27.73rpx;
 }
 .view {
   position: absolute;
   right: 12.5rpx;
-  top: 220.27rpx;
+  top: 243.27rpx;
 }
 .section_4 {
   padding: 28.85rpx 39.48rpx 181.81rpx 39.48rpx;
   background-color: #f1d5e1;
   border-radius: 38.46rpx;
+  max-height: 320rpx;
 }
 .text_7 {
   line-height: 39.38rpx;
@@ -718,12 +726,13 @@ wx-switch .wx-switch-input::after {
 .pos_3 {
   position: absolute;
   right: 12.5rpx;
-  top: 230.27rpx;
+  top: 245.27rpx;
 }
 .section_5 {
   padding: 28.85rpx 39.06rpx 194.73rpx;
   background-color: #cdcfe8;
   border-radius: 38.46rpx;
+  max-height: 320rpx;
 }
 .text_9 {
   margin-top: 27.71rpx;
@@ -735,9 +744,8 @@ wx-switch .wx-switch-input::after {
   top: 243.27rpx;
 }
 .pos_11{
-  position: absolute;
-  left: 230.48rpx;
-  bottom: 76.63rpx;
+  margin-top: 15.02rpx;
+  margin-left: 90rpx;
 }
 .pos_12 {
   position: absolute;
@@ -745,9 +753,17 @@ wx-switch .wx-switch-input::after {
   top: 177.04rpx;
 }
 .pos_13 {
+  margin-top: 55.88rpx;
+}
+.pos_huan{
   position: absolute;
-  right: 179.29rpx;
-  bottom: 97rpx;
+  left: 67.29rpx;
+  bottom: 23.08rpx;
 }
 
+.text-container{
+  display: flex;
+  align-items: baseline; /* 让基线对齐 */
+  margin-left: 8px; /* 根据需要调整文本与环形进度条之间的间距 */
+}
 /* 全局 */

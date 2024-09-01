@@ -19,7 +19,28 @@ Page({
     dataZonghe:5,
 
     //  测试页面分数，后续通过数据库实时更新，实时渲染
-    testScore:[99,88,77,66,55],
+    testScore:[61,88,77,66,55],
+    gradientColor1: {
+      '0%': '#FFEB3A',
+      '100%': '#4DEF8E',
+    },
+    gradientColor2: {
+      '0%': '#E0FF87',
+      '100%': '#8FB85B',
+    },
+    gradientColor3: {
+      '0%': '#7CF7FF',
+      '100%': '#4B73FF',
+    },
+    gradientColor4: {
+      '0%': '#FFED46',
+      '100%': '#FF7EC7',
+    },
+    gradientColor5: {
+      '0%': '#FFBB89',
+      '100%': '#7B6AE0',
+    },
+
   },
 
   onShareAppMessage() {
@@ -28,7 +49,6 @@ Page({
   onShow() {
     
   },
-
 
 // 点击语谱噪声查看答案，执行onPop
 onPop(){
@@ -116,7 +136,6 @@ handleClosePopup() {
   onClose() {
     this.setData({ popupVisible: false });
   },
-  
 
 
 

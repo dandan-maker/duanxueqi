@@ -4,7 +4,7 @@
       <view class="flex-row items-center group_2">
         <image
           class="image_2"
-          src="https://ide.code.fun/api/image?token=66cbfc985fdd2800116c53eb&name=fd47d8ecb790d9171cd235733f2db2ef.png"
+          src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=fd47d8ecb790d9171cd235733f2db2ef.png"
         />
 
         <view class="flex-col justify-start text-wrapper ml-4"><text class="text_6">点击重新播放录音</text></view>
@@ -12,7 +12,7 @@
     </view>
     <image
       class="image pos "
-      src="https://ide.code.fun/api/image?token=66cbfc985fdd2800116c53eb&name=2718fed987b3b8e36b335327c0eff711.png "
+      src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=2718fed987b3b8e36b335327c0eff711.png"
     />
     <view class="close-button" bindtap="closePage">×</view>
     

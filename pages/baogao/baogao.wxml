@@ -1,8 +1,9 @@
 <view class="flex-col page">
 
+ 
   <image
     class="self-start image"
-    src="https://ide.code.fun/api/image?token=66cbfc985fdd2800116c53eb&name=27c9b1ab9a73f78aa52db472523e3b63.png"
+    src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=27c9b1ab9a73f78aa52db472523e3b63.png"
   />
   
 
@@ -13,17 +14,32 @@
         <text class="font">语谱噪声测试</text>
         <image
           class="image_2 ml-10"
-          src="https://ide.code.fun/api/image?token=66cbfc985fdd2800116c53eb&name=d22176f6bba5a1ecc8b7bd4a53cc1317.png"
+          src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=d22176f6bba5a1ecc8b7bd4a53cc1317.png"
         />
       </view>
 
       <text class="self-start font_2 text">多人同时讲话形成的类似平稳宽带噪声</text>
 
-      <text class="font_3_new pos_11">{{testScore[0]}}</text>
-      <text class="font_4 pos_13">/100</text>
-      <view class="group_2 pos_12"></view>
-      
-      <view class="flex-col justify-start text-wrapper pos_4" bind:tap="onPop">  
+ 
+ <view class="flex-row justify-center self-start group_3 mt-12">
+  <van-circle
+     value="{{testScore[0]}}"
+     layer-color="#eeeeee"
+     color="#ee0a24"
+     color="{{ gradientColor1}}"
+     size="97"
+     stroke-width="9"
+     class="shrink-0"
+     style="position: relative; left: -12px;"
+  />
+  <view class="text-container ml-4">
+    <text class="font_3_new">{{testScore[0]}}</text>
+    <text class="font_4">/100</text>
+  </view>
+</view>
+
+
+      <view class="flex-col justify-start text-wrapper pos_4" bind:tap="onPop">   
       <!-- onPop函数弹出语谱噪声弹层 -->
         <text class="font_3 text_2 text_3">查看题目答案</text>
       </view>
@@ -36,15 +52,30 @@
         <text class="font text_4">回声测试</text>
         <image
           class="image_2 ml-17"
-          src="https://ide.code.fun/api/image?token=66cbfc985fdd2800116c53eb&name=216feaaa0f855d390045484bbccae6d5.png"
+          src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=216feaaa0f855d390045484bbccae6d5.png"
         />
       </view>
 
       <text class="self-start font_2 text_5">与原声区分开的反射声波</text>
 
-      <text class="font_3_new pos_11">{{testScore[1]}}</text>
-      <text class="font_4 pos_13">/100</text>
-      <view class="group_2 pos_12"></view>
+      <view class="flex-row justify-center self-start group_3 mt-12">
+  <van-circle
+     value="{{testScore[1] }}"
+     layer-color="#eeeeee"
+     color="#ee0a24"
+     color="{{ gradientColor2 }}"
+     size="97"
+     stroke-width="9"
+     class="shrink-0"
+     style="position: relative; left: -12px;"
+  />
+  <view class="text-container ml-4">
+    <text class="font_3_new">{{testScore[1]}}</text>
+    <text class="font_4">/100</text>
+  </view>
+</view>
+
+
 
       <view class="flex-col justify-start text-wrapper pos"><text class="font_3 text_2 " bind:tap="onPop2">查看题目答案</text></view>
     </view>
@@ -54,15 +85,28 @@
         <text class="font">倍速测试</text>
         <image
           class="image_2 ml-18"
-          src="https://ide.code.fun/api/image?token=66cbfc985fdd2800116c53eb&name=24b901aedd62a7c82b9bd9e74bfd82ab.png"
+          src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=24b901aedd62a7c82b9bd9e74bfd82ab.png"
         />
       </view>
 
       <text class="self-start font_2 text_6">调整音频播放速度后耳朵的适应能力</text>
 
-      <text class="font_3_new pos_11">{{testScore[2]}}</text>
-      <text class="font_4 pos_13">/100</text>
-      <view class="group_2 pos_12"></view>
+      <view class="flex-row justify-center self-start group_3 mt-12">
+  <van-circle
+     value="{{testScore[2] }}"
+     layer-color="#eeeeee"
+     color="#ee0a24"
+     color="{{ gradientColor3 }}"
+     size="97"
+     stroke-width="9"
+     class="shrink-0"
+     style="position: relative; left: -12px;"
+  />
+  <view class="text-container ml-4">
+    <text class="font_3_new">{{testScore[2]}}</text>
+    <text class="font_4">/100</text>
+  </view>
+</view>
 
       <view class="flex-col justify-start text-wrapper view"><text class="font_3 text_2" bind:tap="onPop3">查看题目答案</text></view>
     </view>
@@ -71,16 +115,29 @@
       <view class="flex-row items-center self-stretch">
         <text class="font text_7">环境噪声测试</text>
         <image
-          class="image_2 ml-13"
-          src="https://ide.code.fun/api/image?token=66cbfc985fdd2800116c53eb&name=32e6e68632517201f1fa0d94749d04f0.png"
+          class="image_2 ml-13" 
+          src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=32e6e68632517201f1fa0d94749d04f0.png"
         />
       </view>
 
       <text class="self-start font_2 text_8">在社会生活中所产生的干扰周围生活环境的声音</text>
 
-      <text class="font_3_new pos_11">{{testScore[3]}}</text>
-      <text class="font_4 pos_13">/100</text>
-      <view class="group_2 pos_12"></view>
+      <view class="flex-row justify-center self-start group_3 mt-12">
+  <van-circle
+     value="{{testScore[3] }}"
+     layer-color="#eeeeee"
+     color="#ee0a24"
+     color="{{ gradientColor4 }}"
+     size="97"
+     stroke-width="9"
+     class="shrink-0"
+     style="position: relative; left: -12px;"
+  />
+  <view class="text-container ml-4">
+    <text class="font_3_new">{{testScore[3]}}</text>
+    <text class="font_4">/100</text>
+  </view>
+</view>
 
       <view class="flex-col justify-start text-wrapper pos_3"><text class="font_3 text_2" bind:tap="onPop4">查看题目答案</text></view>
     </view>
@@ -89,17 +146,29 @@
       <view class="flex-row items-center self-stretch">
         <text class="font">综合测试得分</text>
         <image
-          class="image_2 ml-13"
-          src="https://ide.code.fun/api/image?token=66cbfc985fdd2800116c53eb&name=a1ab416c63016f51fc4063ed08e0d05d.png"
+          class="image_2 ml-13" 
+          src="https://ide.code.fun/api/image?token=66cfd3bc5fdd2800116c874c&name=a1ab416c63016f51fc4063ed08e0d05d.png"
         />
       </view>
 
       <text class="self-start font_2 text_9">得分越高，综合听力能力越强</text>
 
-      <text class="font_3_new pos_11">{{testScore[4]}}</text>
-      <text class="font_4 pos_13">/100</text>
-      <view class="group_2 pos_12"></view>
-
+      <view class="flex-row justify-center self-start group_3 mt-12">
+  <van-circle
+     value="{{testScore[4] }}"
+     layer-color="#eeeeee"
+     color="#ee0a24"
+     color="{{ gradientColor5 }}"
+     size="97"
+     stroke-width="9"
+     class="shrink-0"
+     style="position: relative; left: -12px;"
+  />
+  <view class="text-container ml-4">
+    <text class="font_3_new">{{testScore[4]}}</text>
+    <text class="font_4">/100</text>
+  </view>
+</view>
 
       <view class="flex-col justify-start text-wrapper pos_1"><text class="font_3 text_2" bind:tap="onPop5">查看题目答案</text></view>
     </view>
