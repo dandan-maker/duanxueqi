@@ -1,4 +1,4 @@
-// pages/testpages/util_testpages.js
+// utils/test_audio_utils.js
 
 const innerAudioContext = wx.createInnerAudioContext()
 
@@ -40,9 +40,14 @@ function randomMHINT() {
 }
 */
 
+//停止播放测试音频的函数
+function stopAudio() {
+  innerAudioContext.stop()
+}
+
 //播放测试音频的函数，播放前进行1s延时
 function playAudio(scene_num, set_num, question_num) {
-  innerAudioContext.stop()  //先停止上一题的音频，避免答题过快导致多题音频重叠
+  stopAudio()  //先停止上一题的音频，避免答题过快导致多题音频重叠
   let src = localData.audioSrc[scene_num][set_num][question_num]
   setTimeout(()=>{
     innerAudioContext.autoplay = true
@@ -51,4 +56,4 @@ function playAudio(scene_num, set_num, question_num) {
   }, 1000)
 }
 
-export {playAudio}
+export {stopAudio, playAudio}

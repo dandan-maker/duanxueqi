@@ -1,7 +1,7 @@
 // pages/testpages/test_4/test_4.js
 
 //引入外部函数
-import {playAudio} from '../util_testpages.js'
+import {stopAudio, playAudio} from '../../../utils/test_audio_utils.js'
 
 const app = getApp()
 const AV = require('../../../libs/av-core-min.js');
@@ -42,7 +42,7 @@ Page({
     let origin = options.origin
     this.setData({
       origin: origin,
-      id:options.id
+      id: options.id
     }) 
     //自动播放第一段测试音频
     playAudio(this.data.scene_num, this.data.set_num, this.data.question_num)
@@ -61,6 +61,7 @@ Page({
       })
       //如果+10后，进度达到100%，即该测试的10题全部答完的时候，显示“返回测试中心”图标，并把“下一题”改为“继续测试”，将输入框禁用
       if (new_prog == 100) {
+        stopAudio() //测试已经完成，如果音频尚未播完也要停止
         wx.disableAlertBeforeUnload() //测试已经完成，取消左上角返回键警告
         this.setData ({
           isEnd: true,

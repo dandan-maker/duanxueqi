@@ -1,7 +1,11 @@
 // index.js
+
+import {stopAudio} from '../../utils/test_audio_utils.js'
+
 const app = getApp()
 const AV = require('../../libs/av-core-min.js');
 const user = AV.User.current();
+
 Page({
   data: {
     testscene_1_3: [{
@@ -28,7 +32,13 @@ Page({
     }]
   },
 
-  /* 点击按钮进入相应测试界面 */
+  //切入前台时的函数
+  onShow() {
+    //如果从测试场景中切回测试首页，音频还在播放的话，要停止播放
+    stopAudio()
+  },
+
+  // 点击按钮进入相应测试界面
   onClick(event) {
     let target_scene = event.currentTarget.dataset.id;
     // console.log(target_scene);
