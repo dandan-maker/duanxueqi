@@ -1,0 +1,145 @@
+.page {
+  padding-bottom: 0rpx;
+  background-color: #fffbe5;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  background-color: #fffbe5;
+}
+.group {
+  margin-left: 4.25rpx;
+  padding-left: 17.75rpx;
+}
+.group_2 {
+  margin-top: 13.75rpx;
+  padding-bottom: 32.5rpx;
+  width: 142.75rpx;
+}
+.text {
+  margin-left: 8rpx;
+  color: #2f3e72;
+  font-size: 25rpx;
+  font-family: STXinwei;
+  line-height: 20rpx;
+}
+.image-wrapper {
+  padding: 31.25rpx 0;
+  background-image: url('https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=1fbe6ca2fdda370e200bd5e63badc57b.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.image_4 {
+  width: 89.75rpx;
+  height: 73.75rpx;
+}
+.group_10 {
+  padding: 14.75rpx 0 8.63rpx;
+}
+.group_1 {
+  margin-left: 166.75rpx;
+}
+.image_2 {
+  width: 35rpx;
+  height: 20rpx;
+  position: fixed;
+  top: 20rpx;
+  left: 520rpx;
+}
+.group_4 {
+  padding: 2rpx 0 38.25rpx;
+}
+.image_3 {
+  margin-left: 225rpx;
+  width: 35rpx;
+  height: 25rpx;
+  position: fixed;
+  top: 20rpx;
+  right: 0;
+  left: 350rpx;
+}
+.image {
+  width: 160rpx;
+  height: 90rpx;
+}
+.pos {
+  position: fixed;
+  inset: 20rpx 0 0 550rpx;
+}
+.group_5 {
+  margin-top: 16.88rpx;
+}
+.text_2 {
+  color: #2f3e72;
+  font-size: 64rpx;
+  font-family: STXinwei;
+  line-height: 112rpx;
+}
+.image_5 {
+  width: 40rpx;
+  height: 35rpx;
+}
+.text_3 {
+  color: #2f3e72;
+  font-size: 55rpx;
+  font-family: STXinwei;
+  line-height: 50rpx;
+}
+.pos_2 {
+  position: absolute;
+  left: 43.75rpx;
+  right: 9rpx;
+  bottom: 0;
+}
+.image-wrapper_2 {
+  margin-left: 17rpx;
+  margin-right: 13rpx;
+  padding: 55rpx 0 42rpx;
+  border-radius: 5rpx;
+  background-image: url('https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=3b6ea87979f8b6a59ddde32f8f6dc46e.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.image_6 {
+  margin-left: 270rpx;
+  width: 180rpx;
+  height: 55rpx;
+}
+.group_6 {
+  margin-left: 4.25rpx;
+  margin-top: 40rpx;
+}
+.image_7 {
+  width: 100rpx;
+  height: 90rpx;
+}
+.text_4 {
+  margin-left: 35rpx;
+  color: #2f3e72;
+  font-size: 60rpx;
+  font-family: STXinwei;
+  line-height: 53rpx;
+}
+.image_8 {
+  margin-left: 10rpx;
+  width: 30rpx;
+  height: 27rpx;
+}
+.group_7 {
+  margin-left: 4.25rpx;
+  margin-top: 40rpx;
+  padding: 0 11rpx 67rpx 23rpx;
+}
+.image_9 {
+  width: 116rpx;
+  height: 100rpx;
+}
+.image_10 {
+  height: 100rpx;
+  width: 543rpx;
+}
+.group_8 {
+  padding-left: 5rpx;
+}
