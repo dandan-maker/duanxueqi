@@ -1,8 +1,8 @@
 // utils/test_data_upload_utils.js
 
-const app = getApp()
-const AV = require('../libs/av-core-min.js');
-const user = AV.User.current();
+// const app = getApp() //这句是用来干嘛的啊？
+const AV = require('../libs/av-core-min.js')
+const user = AV.User.current()
 
 var defaultData =[
   ["","","","","","","","","",""],
