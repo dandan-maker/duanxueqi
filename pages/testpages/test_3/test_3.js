@@ -2,6 +2,7 @@
 
 //引入外部函数
 import {stopAudio, playAudio} from '../../../utils/test_audio_utils.js'
+import {uploadUserAnswer} from '../../../utils/test_data_upload_utils.js'
 
 const app = getApp()
 const AV = require('../../../libs/av-core-min.js');
@@ -63,6 +64,8 @@ Page({
       if (new_prog == 100) {
         stopAudio() //测试已经完成，如果音频尚未播完也要停止
         wx.disableAlertBeforeUnload() //测试已经完成，取消左上角返回键警告
+        uploadUserAnswer(this.data.scene_num, this.data.userSentence) //上传用户答案到Leancloud
+        //显示“返回测试中心”图标，并把“下一题”改为“继续测试”，将输入框禁用
         this.setData ({
           isEnd: true,
           iptShow: false
