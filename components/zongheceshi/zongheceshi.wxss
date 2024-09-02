@@ -2,7 +2,7 @@
 
 .page {
   padding: 22.42rpx 0 253.74rpx;
-  background-color: #f7e9e8;
+  background-color: #CDE3EE;
   border-radius: 61.14rpx;
   border: solid 10.19rpx #777777;
   max-height: 960rpx;
@@ -13,7 +13,7 @@
   right: 20px; /* 距离右侧的距离 */
   width: 30px; /* 按钮的宽度 */
   height: 30px; /* 按钮的高度 */
-  background-color: #f7e9e8; /* 背景颜色 */
+  background-color: #CDE3EE; /* 背景颜色 */
   color: #797979; /* 字体颜色 */
   text-align: center; /* 文本居中 */
   line-height: 30px; /* 行高，与高度一致，使“×”居中 */
@@ -35,6 +35,7 @@
   height: 813.45rpx;
   border: solid 2.04rpx #777777;
   overscroll-behavior:contain;
+  border-radius: 60rpx;
 
 }
 .list {
@@ -45,6 +46,11 @@
   position: absolute;
   left: 70.52rpx;
   top: 89.71rpx;
+
+}
+.scroll-container{
+  max-height: 770.45rpx; /* 容器高度 */
+  overflow-y: auto;  /* 纵向滚动 */
 
 }
 .font {

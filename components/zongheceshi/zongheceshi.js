@@ -23,7 +23,7 @@ Component({
       this.triggerEvent('closePopup1');  // 触发自定义事件
     },
   },
-  onClick() {
-    wx.navigateBack();
-  },
+  // onClick() {
+  //   wx.navigateBack();
+  // },
 })

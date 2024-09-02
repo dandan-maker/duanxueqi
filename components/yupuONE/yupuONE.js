@@ -58,9 +58,9 @@ pageLifetimes: {
   
   methods: {
     // 暂时不太清楚作用
-    onClick() {
-      wx.navigateBack();
-    },
+    // onClick() {
+    //   wx.navigateBack();
+    // },
     
     closePage() {
       this.triggerEvent('closePopup');  // 触发自定义事件

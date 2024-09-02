@@ -27,8 +27,8 @@
      layer-color="#eeeeee"
      color="#ee0a24"
      color="{{ gradientColor1}}"
-     size="97"
-     stroke-width="9"
+     size="{{size}}"
+     stroke-width="{{strokewidth}}"
      class="shrink-0"
   />
   <view class="text-container ml-4">
@@ -63,8 +63,8 @@
      layer-color="#eeeeee"
      color="#ee0a24"
      color="{{ gradientColor2 }}"
-     size="97"
-     stroke-width="9"
+     size="{{size}}"
+     stroke-width="{{strokewidth}}"
      class="shrink-0"
      style="position: relative; left: -12rpx;"
   />
@@ -96,8 +96,8 @@
      layer-color="#eeeeee"
      color="#ee0a24"
      color="{{ gradientColor3 }}"
-     size="97"
-     stroke-width="9"
+     size="{{size}}"
+     stroke-width="{{strokewidth}}"
      class="shrink-0"
      style="position: relative; left: -12px;"
   />
@@ -127,8 +127,8 @@
      layer-color="#eeeeee"
      color="#ee0a24"
      color="{{ gradientColor4 }}"
-     size="97"
-     stroke-width="9"
+     size="{{size}}"
+     stroke-width="{{strokewidth}}"
      class="shrink-0"
      style="position: relative; left: -12px;"
   />
@@ -158,8 +158,8 @@
      layer-color="#eeeeee"
      color="#ee0a24"
      color="{{ gradientColor5 }}"
-     size="97"
-     stroke-width="9"
+     size="{{size}}"
+     stroke-width="{{strokewidth}}"
      class="shrink-0"
      style="position: relative; left: -12px;"
   />

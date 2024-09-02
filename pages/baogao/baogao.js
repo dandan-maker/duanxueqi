@@ -1,8 +1,12 @@
+
 Page({
   data: {
     // 控制弹出层是否可见的变量,true表示可见
     popupVisible: false,  
     popupVisible1: false,
+
+    size:0,
+    strokewidth:0,
 
     // 语谱噪声页面对应的传递参数1
     dataYupu:1,
@@ -44,10 +48,24 @@ Page({
 
   },
 
+  onLoad(){
+    const systemInfo = wx.getSystemInfoSync();
+    const screenWidth = systemInfo.screenWidth;
+    const size = 0.28 * screenWidth;
+    const strokewidth=0.075*size;
+    this.setData({
+      size: size,
+      strokewidth:strokewidth,
+    });
+  },
+
   onShareAppMessage() {
     return {};
   },
-  onShow() {
+
+  onShow(
+
+  ) {
     
   },
 
