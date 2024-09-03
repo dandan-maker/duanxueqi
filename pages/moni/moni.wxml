@@ -1,36 +1,30 @@
-<!--pages/moni/moni.wxml-->
+<view class="container">
+  <!-- 顶部图片容器 -->
+  <view class="top-image-container">
+    <image src="http://lc-KixOdMjP.cn-n1.lcfile.com/bAcofU3qm6jhxwu9xucxUCYBqLczX2S4/moni.png" class="top-image" mode="aspectFill"></image>
+    <!-- 返回按钮 -->
+    <button class="back-button" bindtap="goBack">{{'<'}}</button>
+  </view>
 
-  <view class="view_contain">
-    <view class="view_1">
-      <button class="hand" bindtap="toHand">手动模拟</button>
-    
-    </view>
-    <view class="view_2">
-      <text class="title">场景选择</text>
-    </view>
-    <view class="view_3">
-      <button class="button-1" bindtap="change">低频损失</button>
-      <button class="button-1" bindtap="change">高频损失</button>
-      <button class="button-1" bindtap="change">耳鸣</button>
-    </view>
-    <view class="view_2">
-      <text class="title">听力损失类别</text>
-    </view>
-      <view class="view_3">
-      <button class="button-1" bindtap="change">低频损失</button>
-      <button class="button-1" bindtap="change">高频损失</button>
-      <button class="button-1" bindtap="change">耳鸣</button>
-    </view>
-    <view class="view_2">
-      <text class="title">听力损失程度</text>
-    </view>
-    <view class="view_4">
-      <button class="button-2" bindtap="change">正常听力</button>
-      <button class="button-2" bindtap="change">轻度损失</button>
-      <button class="button-2" bindtap="change">中度损失</button>
-      <button class="button-2" bindtap="change">重度损失</button>
-    </view>
-    <view class="view_5">
+<!-- 模拟场景选择部分 -->
+<view class="section">
+    <text class="section-title">模拟场景选择 ▶</text>
+    <!-- 可以左右滑动的按钮栏 -->
+    <scroll-view scroll-x="true" class="scroll-container">
+      <view wx:for="{{scenes}}" wx:key="id" data-index="{{index}}" data-group="scenes" class="scroll-item {{item.active ? 'scroll-item-active' : ''}}" bindtap="toggleActive">{{item.text}}</view>
+    </scroll-view>
+  </view>
+
+  <!-- 听力下降类型选择部分 -->
+  <view class="section">
+    <text class="section-title">听力下降类型 ▶</text>
+    <!-- 可以左右滑动的按钮栏 -->
+    <scroll-view scroll-x="true" class="scroll-container">
+      <view wx:for="{{hearingTypes}}" wx:key="id" data-index="{{index}}" data-group="hearingTypes" class="scroll-item {{item.active ? 'scroll-item-active' : ''}}" bindtap="toggleActive">{{item.text}}</view>
+    </scroll-view>
+  </view>
+<!-- 播放按钮 -->
+  <view class="player">
       <view wx:if="{{playSucceed==false}}">
         <view bindtap="chooseIcon">
           <view>
@@ -46,4 +40,9 @@
         </view>
       </view>
     </view>
+
+  <!-- 自定义听力阈值按钮 -->
+  <view class="custom-button">
+    <button class="custom-button-text" bindtap="toHand">自定义听力阈值</button>
   </view>
+</view>
