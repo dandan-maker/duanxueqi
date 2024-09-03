@@ -1,4 +1,5 @@
 // pages/moni/moni.js
+const audioUtils = require('../../utils/moni_audio_utils.js');
 Page({
 
   /**
@@ -23,23 +24,50 @@ Page({
       {id:2,text:'轻度听损',active:false},
       {id:3,text:'中度听损',active:false},
       {id:4,text:'重度听损',active:false}
-    ]
+    ],
+    selectedScene: null,
+    selectedHearingType: null,
+    playing: false
   },
   // 切换按钮的 active 状态
   toggleActive: function(e) {
     const { index, group } = e.currentTarget.dataset;
     const list = this.data[group].map((item, idx) => {
-      if (idx === index) item.active = !item.active; // 切换 active 状态
+      // 切换选中状态，并将其他按钮设置为未选中
+      item.active = idx === index ? !item.active : false;
       return item;
     });
     this.setData({ [group]: list });
+
+    if (group === 'scenes') {
+      this.setData({
+        selectedScene: list[index].active ? list[index].id : null
+      });
+    } else if (group === 'hearingTypes') {
+      this.setData({
+        selectedHearingType: list[index].active ? list[index].id : null
+      });
+    }
+
+    if (this.data.selectedScene && this.data.selectedHearingType) {
+      audioUtils.refreshAudioSrc(this.data.selectedScene, this.data.selectedHearingType);
+    }
   },
   //点击播放/暂停
   chooseIcon:function(){
     let value = this.data.playSucceed;
     this.setData({
       playSucceed:!value
-    })
+    });
+    if (value) {
+      const audioSrc = audioUtils.getAudioSrc();
+      if (audioSrc) {
+        audioUtils.initAudio(audioSrc);
+        audioUtils.play();
+      }
+    } else {
+      audioUtils.pause();
+    }
     console.log(value)
   },
   viewTap(e){
@@ -59,7 +87,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    // 设置音频播放结束的回调函数
+    audioUtils.setOnEndedCallback(() => {
+      this.setData({
+      playSucceed: true
+      });
+    });
   },
 
   /**
