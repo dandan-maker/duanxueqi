@@ -24,40 +24,40 @@ Page({
         '学校经常检查宿舍卫生'
       ],
       [
-        '她刚才讲话时吞吞吐吐',
-        '楼下的小猫整晚都在叫',
-        '她买了一台短波收音机',
-        '他们说前天看到有飞碟',
-        '她的乒乓球打得非常好',
-        '我们都笑他是个胆小鬼',
-        '前面不远有一个汽车站',
-        '这个小学生有数学天赋',
-        '她切菜不小心切伤手指',
-        '学校经常检查宿舍卫生'
+        '这个球队终于打入决赛',
+        '他拿出一支烟来请我抽',
+        '我非常喜欢明媚的春天',
+        '爸爸今天买回一个西瓜',
+        '我不能肯定哪个队会赢',
+        '下班时间这里常常堵车',
+        '这个县城盛产苹果和梨',
+        '这部电视剧的确很乏味',
+        '谁都喜欢和她一起工作',
+        '烟灰缸里有一大堆烟头'
       ],
       [
-        '她刚才讲话时吞吞吐吐',
-        '楼下的小猫整晚都在叫',
-        '她买了一台短波收音机',
-        '他们说前天看到有飞碟',
-        '她的乒乓球打得非常好',
-        '我们都笑他是个胆小鬼',
-        '前面不远有一个汽车站',
-        '这个小学生有数学天赋',
-        '她切菜不小心切伤手指',
-        '学校经常检查宿舍卫生'
+        '我十分钟后在门口等你', 
+        '他的作文在比赛中获奖', 
+        '我在桌子下发现一支笔',
+        '那个牌子的电器非常好',
+        '他第二天就把钱送来了',
+        '这个小女孩长得很秀气',
+        '那个饭馆的包子很出名',
+        '她今天下午突然肚子疼', 
+        '他家今天来了很多客人', 
+        '我大年初一给爸爸拜年'  
       ],
       [
-        '她刚才讲话时吞吞吐吐',
-        '楼下的小猫整晚都在叫',
-        '她买了一台短波收音机',
-        '他们说前天看到有飞碟',
-        '她的乒乓球打得非常好',
-        '我们都笑他是个胆小鬼',
-        '前面不远有一个汽车站',
-        '这个小学生有数学天赋',
-        '她切菜不小心切伤手指',
-        '学校经常检查宿舍卫生'
+        '公司接到一份国外订单', 
+        '工地上有很多建筑工人', 
+        '上个月很多人得了流感',
+        '爸爸准备去考驾驶执照',
+        '他吃完晚饭经常去散步',
+        '她和同学们失去了联系',
+        '姐夫修好了那台收音机',
+        '这个大公司今年要裁员', 
+        '小朋友用铅笔画向日葵', 
+        '他们请了个保姆看小孩'
       ]
     ],
 
@@ -150,75 +150,80 @@ Page({
 
 
   calculateScore() {
-    for(let k=0; k<4;k++){
-      const userAnswers = this.data.answerData[k];
-      const correctAnswers = this.data.correctAnswers[k];
-  
-      // 确保用户答案数组和正确答案数组长度相同
-      if (userAnswers.length !== correctAnswers.length) {
-        throw new Error("User answers and correct answers must have the same length");
-      }
-  
-      // 总分数初始化为0
-      let totalScore = 0;
-  
-      // 遍历每个用户输入
-      for (let i = 0; i < userAnswers.length; i++) {
-        const userAnswer = userAnswers[i] || ""; // 用户无输入时默认为空字符串
-        let correctAnswer = correctAnswers[i];
-  
-        // 如果用户没有输入，分数为0
-        if (userAnswer === "") {
-          continue;
+    // 定义映射规则
+    const normalizationMap = {
+        "他": "X", "她": "X", "它": "X",
+        "的": "Y", "得": "Y", "地": "Y"
+    };
+
+    for(let k = 0; k < 4; k++){
+        const userAnswers = this.data.answerData[k];
+        const correctAnswers = this.data.correctAnswers[k];
+
+        // 确保用户答案数组和正确答案数组长度相同
+        if (userAnswers.length !== correctAnswers.length) {
+            throw new Error("User answers and correct answers must have the same length");
         }
-  
-        // 计算匹配的字符数
-        let correctCharCount = 0;
-  
-        // 遍历用户输入的每个字
-        for (let userChar of userAnswer) {
-          // 遍历正确答案中的每个字
-          for (let j = 0; j < correctAnswer.length; j++) {
-            const correctChar = correctAnswer[j];
-            if (userChar === correctChar) {
-              correctCharCount++;
-              // 匹配后移除该正确答案中的字符，防止重复计分
-              correctAnswer = correctAnswer.slice(0, j) + correctAnswer.slice(j + 1);
-              break;
+
+        // 总分数初始化为0
+        let totalScore = 0;
+
+        // 遍历每个用户输入
+        for (let i = 0; i < userAnswers.length; i++) {
+            let userAnswer = userAnswers[i] || ""; // 用户无输入时默认为空字符串
+            let correctAnswer = correctAnswers[i];
+
+            // 如果用户没有输入，分数为0
+            if (userAnswer === "") {
+                continue;
             }
-          }
+
+            // 计算匹配的字符数
+            let correctCharCount = 0;
+
+            // 将用户输入和正确答案中的特定字符归一化
+            userAnswer = userAnswer.split('').map(char => normalizationMap[char] || char).join('');
+            correctAnswer = correctAnswer.split('').map(char => normalizationMap[char] || char).join('');
+
+            // 遍历用户输入的每个字
+            for (let userChar of userAnswer) {
+                // 遍历正确答案中的每个字
+                for (let j = 0; j < correctAnswer.length; j++) {
+                    const correctChar = correctAnswer[j];
+                    if (userChar === correctChar) {
+                        correctCharCount++;
+                        // 匹配后移除该正确答案中的字符，防止重复计分
+                        correctAnswer = correctAnswer.slice(0, j) + correctAnswer.slice(j + 1);
+                        break;
+                    }
+                }
+            }
+
+            // 计算分数：正确字符数 / 正确答案的字符数 * 10
+            const score = (correctCharCount / correctAnswers[i].length) * 10;
+
+            let listScore = this.data.listScore; // 获取当前的 listScore 数组
+            // 更新指定位置的值
+            listScore[k][i] = score; 
+            console.log("这是list：", listScore[k][i]);
+            
+            // 将更新后的数组设置回 data 中
+            this.setData({
+                listScore: listScore
+            });
+
+            // 累加到总分
+            totalScore += score;
         }
-  
-        // 计算分数：正确字符数 / 正确答案的字符数 * 10
-        const score = (correctCharCount / correctAnswers[i].length) * 10;
 
-        let listScore = this.data.listScore; // 获取当前的 listScore 数组
-        // 更新指定位置的值
-
-        listScore[k][i] = score; 
-        console.log("这是list：",listScore[k][i])
-        
-        // 将更新后的数组设置回 data 中
+        // 更新总分到页面数据
         this.setData({
-          listScore: listScore
+            [`testScore[${k}]`]: totalScore
         });
-  
-        // 累加到总分
-        totalScore += score;
-      }
-  
-      // 更新总分到页面数据
-      this.setData({
-        [`testScore[${k}]`]: totalScore
-      });
-  
-      console.log("总分数:", totalScore);
 
+        console.log("总分数:", totalScore);
     }
-  },
-
-
-
+},
 
 
 // 点击语谱噪声查看答案，执行onPop
