@@ -174,7 +174,7 @@
   </view>
 
 <van-popup position="center" show="{{ popupVisible }}" bind:close="onClose">
-  <YupuONE id="yupuONEComponent" bind:closePopup="handleClosePopup"></YupuONE>
+  <YupuONE id="yupuONEComponent" bind:closePopup="handleClosePopup" answerArray="{{answerData}}" listArray="{{listScore}}"></YupuONE>
 </van-popup>
 
 <van-popup position="center" show="{{ popupVisible1}}" bind:close="onClose1">
