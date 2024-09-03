@@ -24,6 +24,8 @@
 
   <!-- 图表展示 -->
   <canvas canvas-id="hearingChart" class="chart"></canvas>
+  
+  <!-- 播放按钮 -->
   <view class="player">
       <view wx:if="{{playSucceed==false}}">
         <view bindtap="chooseIcon">
