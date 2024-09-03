@@ -21,7 +21,8 @@
   bottom: 0%;
   margin: auto;
   font-size: 200rpx;
-  font-family: "宋体";
+  /* font-family: "宋体"; */
+  font-weight: 600;
   text-align: center;
   color: white;
   border-color:white;

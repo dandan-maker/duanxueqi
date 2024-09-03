@@ -1,7 +1,7 @@
 // pages/testpages/test_1/test_1.js
 
 //引入外部函数
-import {stopAudio, playAudio} from '../../../utils/test_audio_utils.js'
+import {refreshAudioSrc, stopAudio, playAudio} from '../../../utils/test_audio_utils.js'
 import {uploadUserAnswer} from '../../../utils/test_data_upload_utils.js'
 
 const app = getApp()
@@ -29,7 +29,6 @@ Page({
     origin: '',
     id:'',
     scene_num: 0,
-    set_num: 0,
     question_num: 0
   },
 
@@ -45,8 +44,13 @@ Page({
       origin: origin,
       id: options.id
     }) 
-    //自动播放第一段测试音频
-    playAudio(this.data.scene_num, this.data.set_num, this.data.question_num)
+    //根据测试场景对应的 scene_num 更新 /utils/test_data_upload_utils.js 中的 audio_src 数组，在每个测试页面加载时执行一次
+    refreshAudioSrc(this.data.scene_num)
+    //设置0.5s延迟再播放第一题音频，因为 refreshAudioSrc 从线上获取 audio_src 需要一定时间，playAudio 执行太快的话会在 audio_src 还没获取成功时就查找这个空数组，引发报错
+    setTimeout(()=>{
+      //自动播放第一段测试音频
+      playAudio(this.data.question_num)
+    }, 500)
   },
   
   //点击“下一题”图标时的函数
@@ -64,7 +68,7 @@ Page({
       if (new_prog == 100) {
         stopAudio() //测试已经完成，如果音频尚未播完也要停止
         wx.disableAlertBeforeUnload() //测试已经完成，取消左上角返回键警告
-        uploadUserAnswer(scene_num, userSentence) //上传用户答案到Leancloud
+        uploadUserAnswer(this.data.scene_num, this.data.userSentence) //上传用户答案到Leancloud
         //显示“返回测试中心”图标，并把“下一题”改为“继续测试”，将输入框禁用
         this.setData ({
           isEnd: true,
@@ -72,7 +76,7 @@ Page({
         })
       } else {
         //自动播放下一题测试音频
-        playAudio(this.data.scene_num, this.data.set_num, this.data.question_num)
+        playAudio(this.data.question_num)
       }
       
     } else {  //已经到达100%进度，此时点击“继续测试”
