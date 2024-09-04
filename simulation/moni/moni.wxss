@@ -9,7 +9,7 @@
 
 .top-image-container {
   width: 100%;
-  height: 750rpx; /* 根据需要调整 */
+  height: 50vh; /* 根据需要调整 */
   position: relative;
 }
 .top-image {
@@ -18,56 +18,57 @@
 }
 
 .back-button {
-  position: absolute;
-  top: 100rpx;
-  left: 20rpx;
+  position: fixed; /* 改为 fixed */
+  top: 60rpx; /* 根据需要调整 */
+  left: 20rpx; /* 根据需要调整 */
   width: 60rpx;
   height: 60rpx;
-  background-color: rgba(255, 255, 255, 0.7); /* 半透明背景 */
+  background-color: white; /* 半透明背景 */
   border: none;
   padding: 10rpx;
   border-radius: 50%;
-  font-size: 50rpx;
+  font-size: 60rpx;
   line-height: 40rpx;
-  text-align: center;
+  text-align:center;
+  z-index: 1000; /* 确保按钮在最前面 */
 }
 
 .section {
   width: 100%;
-  padding: 20rpx;
+  padding: 4vw;
 }
 .section-title {
-  font-size: 70rpx;
+  font-size: 10vw;
   font-weight: bold;
   color: #2c3d68;
-  margin-bottom: 10rpx;
-  margin-left: 20rpx;
-  text-shadow: 10rpx 10rpx 50rpx gray;
+  margin-bottom: 2vw;
+  margin-left: 2vw;
+  text-shadow: 1vw 1vw 5vw gray;
 }
 
 .scroll-container {
   flex-direction: flex;
-  width: 750rpx;
+  width: 100%;
   white-space: nowrap;
-  margin-top: 40rpx;
+  margin-top: 4vw;
   display: flex;
 }
 .scroll-item{
   background-color: #ffe5e4; /* 按钮背景颜色 */
-  padding: 0rpx 0rpx; 
-  border-radius: 40rpx; /* 圆角效果 */
-  margin-right: 10rpx; /* 右外边距，增加按钮间距 */
-  font-size: 65rpx;
+  padding: 0 2vw; 
+  border-radius: 4vw; /* 圆角效果 */
+  margin-right: 2vw; /* 右外边距，增加按钮间距 */
+  font-size: 8vw;
   font-weight: 550;
   color: #333; /* 按钮文字颜色 */
-  margin-left: 50rpx;
+  margin-left: 5vw;
   text-align:center;
   align-items: center;
   justify-content: center;
   display: inline-block;
-  width: 300rpx;
-  height: 100rpx;
-  border: 5px solid transparent;
+  width: 40vw;
+  height: 15vw;
+  border: 1.5vw solid transparent;
 }
 .scroll-item-active {
   border-color: #2c3d68; /* 活跃时边框颜色 */
@@ -76,27 +77,26 @@
 .player{
   width: 100%;
   height: 15%;
-  margin-top: 20rpx;
+  margin-top: 2vw;
 }
 .bofang{
-  width: 200rpx;
-  height: 200rpx;
-  margin-left: 270rpx;
+  width: 25vw;
+  height: 25vw;
+  margin-left: 38vw;
 }
 
 .custom-button {
   width: 100%;
   display: flex;
   justify-content: center; /* 水平居中 */
-  margin-top: 30rpx; /* 顶部外边距，增加与上方内容间距 */
+  margin-top: 2vw; /* 顶部外边距，增加与上方内容间距 */
 }
 .custom-button-text {
-  width: 600rpx;
-  height: 150rpx;
+  width: 80vw;
+  height: 15vw;
   background-color: #2c3d68; /* 按钮背景颜色 */
   color: #ffe5e4; /* 按钮文字颜色 */
-  /* padding: 15rpx 30rpx; 内边距 */
-  border-radius: 50rpx; /* 圆角效果 */
-  font-size: 60rpx;
+  border-radius: 5vw; /* 圆角效果 */
+  font-size: 6vw;
 }
 

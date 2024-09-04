@@ -1,5 +1,5 @@
 // pages/moni/moni.js
-const audioUtils = require('../../utils/moni_audio_utils.js');
+const audioUtils = require('../../utils/moni_audio_utils');
 Page({
 
   /**
