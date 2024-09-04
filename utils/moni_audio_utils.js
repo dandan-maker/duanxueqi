@@ -49,14 +49,18 @@ class AudioUtils {
   refreshAudioSrc(sceneId, hearingTypeId) {
     // 根据 sceneId 和 hearingTypeId 来选择不同的音频源
     const audioMap = {
-      '1_1': 'http://lc-KixOdMjP.cn-n1.lcfile.com/qgd7P0yfMcO0PGi8XbVx32w2z3yvYcyj/testAudio_trafficNoise.wav',
-      // '1_2': 'audio/care_child_mild.mp3',
-      // '1_3': 'audio/care_child_moderate.mp3',
-      // '1_4': 'audio/care_child_severe.mp3',
-      // '2_1': 'audio/daughter_call_normal.mp3',
-      // '2_2': 'audio/daughter_call_mild.mp3',
-      // '2_3': 'audio/daughter_call_moderate.mp3',
-      // '2_4': 'audio/daughter_call_severe.mp3',
+      '1_1': 'http://lc-KixOdMjP.cn-n1.lcfile.com/IhnUlM1PK0BqnHDlC4KhDu4p4ISaxvb9/%E7%85%A7%E9%A1%BE%E5%AD%A9%E5%AD%90%E6%A8%A1%E6%8B%9F.mp3',
+      '1_2': 'http://lc-KixOdMjP.cn-n1.lcfile.com/XIEM8d1yTEygNkN7wP4TTr2u55TPzM88/%E7%85%A7%E9%A1%BE%E5%AD%A9%E5%AD%90-%E8%BD%BB%E5%BA%A6.wav',
+      '1_3': 'http://lc-KixOdMjP.cn-n1.lcfile.com/QhavQteOQALXhVX55UEdD69oo7IWCvt1/%E7%85%A7%E9%A1%BE%E5%AD%A9%E5%AD%90-%E4%B8%AD%E5%BA%A6.wav',
+      '1_4': 'http://lc-KixOdMjP.cn-n1.lcfile.com/AbYkt0UoQl1JwBrq6ac5h2IfJAuSj9we/%E7%85%A7%E9%A1%BE%E5%AD%A9%E5%AD%90-%E9%87%8D%E5%BA%A6.wav',
+      '2_1': 'http://lc-KixOdMjP.cn-n1.lcfile.com/N4HfdozaaFR0RxjtzvyAmNses6XAnyrR/%E5%AE%B6%E5%BA%AD%E8%81%9A%E9%A4%90%E6%A8%A1%E6%8B%9F.mp3',
+      '2_2': 'http://lc-KixOdMjP.cn-n1.lcfile.com/4GLYAxi3JTTdMC0272zebASvgg9Oo4vW/%E5%AE%B6%E5%BA%AD%E2%80%94%E8%BD%BB%E5%BA%A6.wav',
+      '2_3': 'http://lc-KixOdMjP.cn-n1.lcfile.com/76ex7C7CCJVc0Ei15EWAOdw54oyK0evT/%E5%AE%B6%E5%BA%AD-%E4%B8%AD%E5%BA%A6.wav',
+      '2_4': 'http://lc-KixOdMjP.cn-n1.lcfile.com/71gCoflu49n54V2a6uTk1WVt3Eo6RqJi/%E5%AE%B6%E5%BA%AD-%E9%87%8D%E5%BA%A6.wav',
+      '3_1':'http://lc-KixOdMjP.cn-n1.lcfile.com/KRjzu4C8LMm2lVIcdQgFz8eBeajicbiI/%E5%85%AC%E4%BA%A4%E7%8E%AF%E5%A2%83%E6%A8%A1%E6%8B%9F.mp3',
+      '3_2':'http://lc-KixOdMjP.cn-n1.lcfile.com/YmPR7YGElsWgwfWqGPGpizm9DPLo9eN3/%E5%85%AC%E4%BA%A4%E2%80%94%E8%BD%BB%E5%BA%A6.wav',
+      '3_3':'http://lc-KixOdMjP.cn-n1.lcfile.com/gfHfyLEyfEFbI9KSXyaYTCSXk2mRJFQ2/%E5%85%AC%E4%BA%A4-%E4%B8%AD%E5%BA%A6.wav',
+      '3_4':'http://lc-KixOdMjP.cn-n1.lcfile.com/JR3tKJp0Uh7gAg1AGX8eOIh5MM5CDPbp/%E5%85%AC%E4%BA%A4-%E9%87%8D%E5%BA%A6.wav',
       // 添加其他音频源
     };
     const key = `${sceneId}_${hearingTypeId}`;
