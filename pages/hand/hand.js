@@ -4,8 +4,8 @@ import wxCharts from '../../utils/wxcharts-min.js'; // 引入 wxCharts
 Page({
   data: {
     playSucceed:true,
-    iconStop:"http://lc-KixOdMjP.cn-n1.lcfile.com/e0S9wgxul7393uDozK1cpzyC29CSSCac/%E6%9A%82%E5%81%9C.png",
-    iconPlaySucceed:"http://lc-KixOdMjP.cn-n1.lcfile.com/jR7tiicV1umXUqBnMCtmW1vPh04oDmE4/%E6%92%AD%E6%94%BE.png",
+    iconStop:"http://lc-KixOdMjP.cn-n1.lcfile.com/CVmWjSTSjRYJgyIIOtPjGGXT9RD8kQHj/%E6%92%AD%E6%94%BE.png",
+    iconPlaySucceed:"http://lc-KixOdMjP.cn-n1.lcfile.com/Q1lGCcWKTpAQNvMVMdO22fAlI9qKTtRJ/%E6%9A%82%E5%81%9C.png",
     frequencies: ['250', '500', '1k', '2k', '4k', '8k'], // 频率
     leftHearingLoss: {
       '250': 0,
