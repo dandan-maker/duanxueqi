@@ -11,9 +11,9 @@ Page({
     iconPlaySucceed:"http://lc-KixOdMjP.cn-n1.lcfile.com/Q1lGCcWKTpAQNvMVMdO22fAlI9qKTtRJ/%E6%9A%82%E5%81%9C.png",
     scenes:[
       {id:1,text:'照顾孩子',active:false},
-      {id:2,text:'女儿来电',active:false},
-      {id:3,text:'家庭聚餐',active:false},
-      {id:4,text:'公交环境',active:false},
+      {id:2,text:'家庭聚餐',active:false},
+      {id:3,text:'公交环境',active:false},
+      {id:4,text:'女儿来电',active:false},
       {id:5,text:'看病就医',active:false},
       {id:6,text:'市场买菜',active:false},
       {id:7,text:'厨房做菜',active:false},
@@ -51,6 +51,13 @@ Page({
 
     if (this.data.selectedScene && this.data.selectedHearingType) {
       audioUtils.refreshAudioSrc(this.data.selectedScene, this.data.selectedHearingType);
+      if (this.data.playing) {
+        const audioSrc = audioUtils.getAudioSrc();
+        if (audioSrc) {
+          audioUtils.initAudio(audioSrc);
+          audioUtils.play();
+        }
+      }
     }
   },
   //点击播放/暂停
@@ -64,9 +71,11 @@ Page({
       if (audioSrc) {
         audioUtils.initAudio(audioSrc);
         audioUtils.play();
+        this.setData({ playing: true });
       }
     } else {
       audioUtils.pause();
+      this.setData({ playing: false });
     }
     console.log(value)
   },
