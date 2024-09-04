@@ -10,14 +10,22 @@ Page({
   // 跳转到模拟室页面
   open:function(){
     wx.navigateTo({
-      url: '../moni/moni',
+      url: '/simulation/moni/moni',
     })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    // 获取设备信息
+    wx.getSystemInfo({
+      success: res => {
+      this.setData({
+      windowWidth: res.windowWidth,
+      windowHeight: res.windowHeight
+    });
+  }
+});
   },
 
   /**

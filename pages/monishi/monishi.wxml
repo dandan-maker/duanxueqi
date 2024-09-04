@@ -1,10 +1,9 @@
 <!--pages/monishi/monishi.wxml-->
-<view class="page">
-<view class="view_1">
-
+<!-- 背景图片 -->
 <image  src="http://lc-KixOdMjP.cn-n1.lcfile.com/Cu9J6K95kKokUodqb16g8hdIP6re4Ho2/monishi.jpg" class="image_1" mode="widthFix"></image>
-<button bindtap="open" class="monishi">开启</button>
 
-</view>
-
+<view class="page">
+  <view class="view_1">
+    <button bindtap="open" class="monishi">开启</button> 
+  </view>
 </view>
