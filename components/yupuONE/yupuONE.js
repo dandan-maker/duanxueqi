@@ -1,3 +1,5 @@
+import {refreshAudioSrc, stopAudio, playAudio} from '../../utils/test_audio_utils.js'
+
 Component({
   properties: {
     // 定义从页面传递到组件的参数，并监听数据变化
@@ -55,6 +57,8 @@ Component({
 
 // 点击“1”到“10”10个按钮时把参数传递到这
    receiveDataButton:1,
+
+   audioNUm:0,
 
   },
 
@@ -116,7 +120,7 @@ updateContent(receivedData) {
         '我非常喜欢明媚的春天',
         '爸爸今天买回一个西瓜',
         '我不能肯定哪个队会赢',
-        '下班时间这里常常堵车',
+        '下班时间这里经常堵车',
         '这个县城盛产苹果和梨',
         '这部电视剧的确很乏味',
         '谁都喜欢和她一起工作',
@@ -142,7 +146,7 @@ updateContent(receivedData) {
         '我大年初一给爸爸拜年'     
       ],
       listYourAnswer:this.data.answerArray[2],
-      listYourScore: this.data.listScore[2]
+      listYourScore: this.data.listArray[2],
     };
   }
   else if (receivedData == 4) {
@@ -179,10 +183,12 @@ updateContent(receivedData) {
   
 },
 
+
     // 点击按钮1后执行的函数
     Click1(){
       this.setData({
-        receiveDataButton:1
+        receiveDataButton:1,
+        audioNUm:0
       })
       console.log(this.data.receiveDataButton)
 
@@ -191,23 +197,28 @@ updateContent(receivedData) {
     // 点击按钮2后执行的函数
     Click2(){
       this.setData({
-        receiveDataButton:2
+        receiveDataButton:2,
+        audioNUm:1
       })
       console.log(this.data.receiveDataButton)
+
     },
 
     // 点击按钮3后执行的函数
     Click3(){
       this.setData({
-        receiveDataButton:3
+        receiveDataButton:3,
+        audioNUm:2
       })
       console.log(this.data.receiveDataButton)
+      playAudio(2);
     },
 
     // 点击按钮4后执行的函数
     Click4(){
       this.setData({
-        receiveDataButton:4
+        receiveDataButton:4,
+        audioNUm:3
       })
       console.log(this.data.receiveDataButton)
     },
@@ -215,7 +226,8 @@ updateContent(receivedData) {
     // 点击按钮5后执行的函数
     Click5(){
       this.setData({
-        receiveDataButton:5
+        receiveDataButton:5,
+        audioNUm:4
       })
       console.log(this.data.receiveDataButton)
     },
@@ -223,7 +235,8 @@ updateContent(receivedData) {
     // 点击按钮6后执行的函数
     Click6(){
       this.setData({
-        receiveDataButton:6
+        receiveDataButton:6,
+        audioNUm:5
       })
       console.log(this.data.receiveDataButton)
     },
@@ -231,7 +244,8 @@ updateContent(receivedData) {
     // 点击按钮7后执行的函数
     Click7(){
       this.setData({
-        receiveDataButton:7
+        receiveDataButton:7,
+        audioNUm:6
       })
       console.log(this.data.receiveDataButton)
     },
@@ -239,7 +253,8 @@ updateContent(receivedData) {
     // 点击按钮8后执行的函数
     Click8(){
       this.setData({
-        receiveDataButton:8
+        receiveDataButton:8,
+        audioNUm:7
       })
       console.log(this.data.receiveDataButton)
     },
@@ -247,7 +262,8 @@ updateContent(receivedData) {
     // 点击按钮9后执行的函数
     Click9(){
       this.setData({
-        receiveDataButton:9
+        receiveDataButton:9,
+        audioNUm:8
       })
       console.log(this.data.receiveDataButton)
     },
@@ -255,11 +271,16 @@ updateContent(receivedData) {
     // 点击按钮10后执行的函数
     Click10(){
       this.setData({
-        receiveDataButton:10
+        receiveDataButton:10,
+        audioNUm:9
       })
       console.log(this.data.receiveDataButton)
-    },
 
+    },
+    
+    PlayAudio(){
+     playAudio(this.data.audioNUm);
+    }
   },
 
 

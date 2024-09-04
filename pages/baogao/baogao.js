@@ -1,5 +1,6 @@
 const AV = require('../../libs/av-core-min.js');
 const user = AV.User.current();
+import {refreshAudioSrc, stopAudio, playAudio} from '../../utils/test_audio_utils.js'
 Page({
   data: {
     // 控制弹出层是否可见的变量,true表示可见
@@ -239,6 +240,8 @@ onPop(){
   if (yupuONE) {
   yupuONE.receiveData(this.data.dataYupu);
   }
+
+  refreshAudioSrc(this.data.dataYupu-1);
 },
 
 // 点击回声测试查看答案，执行onPop2
@@ -254,6 +257,7 @@ onPop2(){
     if (yupuONE) {
     yupuONE.receiveData(this.data.dataHuisheng);
     }
+    refreshAudioSrc(this.data.dataHuisheng-1);
   },
 
   // 点击倍速测试查看答案，执行onPop3
@@ -269,6 +273,7 @@ onPop3(){
     if (yupuONE) {
     yupuONE.receiveData(this.data.dataBeisu);
     }
+    refreshAudioSrc(this.data.dataBeisu-1);
   },
 
   // 点击环境噪声查看答案，执行onPop4
@@ -284,6 +289,7 @@ onPop4(){
     if (yupuONE) {
     yupuONE.receiveData(this.data.dataHuanjin);
     }
+    refreshAudioSrc(this.data.dataHuanjin-1);
   },
 
   // 点击综合得分查看答案，执行onPop5

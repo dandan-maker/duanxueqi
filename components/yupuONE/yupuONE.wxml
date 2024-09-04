@@ -7,7 +7,7 @@
           src="http://lc-KixOdMjP.cn-n1.lcfile.com/wTYIvWq6DzESnJXowWkL5U9IHJTb90gG/%E5%BC%B9%E5%B1%82%E5%B0%8F%E5%96%87%E5%8F%AD.svg"
         />
 
-        <view class="flex-col justify-start text-wrapper ml-4"><text class="text_6">点击重新播放录音</text></view>
+        <view class="flex-col justify-start text-wrapper ml-4"><text class="text_6" bind:tap="PlayAudio">点击重新播放录音</text></view>
       </view>
     </view>
     <image
