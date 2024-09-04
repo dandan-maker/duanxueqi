@@ -1,3 +1,6 @@
+<!--背景图片-->
+<image src="http://lc-KixOdMjP.cn-n1.lcfile.com/Pa95zqhIOF1ztIgWu0g8ch8g0Aim8xWA/index_bgImg.jpg" mode="aspectFill" class="bgImg"/>
+
 <view class="container">
   <view class="sliders">
     <!-- 左耳听力损失调节 -->
@@ -23,7 +26,7 @@
   </view>
 
   <!-- 图表展示 -->
-  <canvas canvas-id="hearingChart" class="chart"></canvas>
+  <!-- <canvas canvas-id="hearingChart" class="chart"></canvas> -->
   
   <!-- 播放按钮 -->
   <view class="player">

@@ -41,7 +41,7 @@ Page({
   showUsageModal: function () {
     wx.showModal({
       title: '使用说明',
-      content: '欢迎使用听力调节程序。您可以通过左右两侧的滑块分别调节左右耳在不同频率下的听力损失情况。调整完毕后，图表会实时显示调节结果。点击播放按钮，将会播放图表对应听力受损情况的模拟音频。',
+      content: '欢迎使用听力调节程序。您可以通过左右两侧的滑块分别调节左右耳在不同频率下的听力损失情况。点击播放按钮，将会播放对应听力受损情况的模拟音频。',
       showCancel: false,
       confirmText: '知道了',
       confirmColor: '#3CC51F'
