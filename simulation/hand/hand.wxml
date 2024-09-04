@@ -1,0 +1,47 @@
+<view class="container">
+  <view class="sliders">
+    <!-- 左耳听力损失调节 -->
+    <view class="left-sliders">
+      <view class="slider-container" wx:for="{{frequencies}}" wx:key="*this">
+        <text class="label">左耳 ({{item}}Hz):</text>
+        <slider min="0" max="100" step="1" show-value value="{{leftHearingLoss[item]}}" 
+          data-frequency="{{item}}" bindchange="onLeftHearingLossChange"/>
+        <text class="value">{{leftHearingLoss[item]}} dB</text>
+      </view>
+    </view>
+
+    <!-- 右耳听力损失调节 -->
+    <view class="right-sliders">
+      <view class="slider-container" wx:for="{{frequencies}}" wx:key="*this">
+        <text class="label">右耳 ({{item}}Hz):</text>
+        <slider min="0" max="100" step="1" show-value value="{{rightHearingLoss[item]}}" 
+          data-frequency="{{item}}" bindchange="onRightHearingLossChange"/>
+        <text class="value">{{rightHearingLoss[item]}} dB</text>
+      </view>
+    </view>
+    
+  </view>
+
+  <!-- 图表展示 -->
+  <canvas canvas-id="hearingChart" class="chart"></canvas>
+  
+  <!-- 播放按钮 -->
+  <view class="player">
+      <view wx:if="{{playSucceed==false}}">
+        <view bindtap="chooseIcon">
+          <view>
+            <image src="{{iconStop}}" class="bofang"></image>
+          </view>
+        </view>
+      </view>
+      <view wx:else>
+        <view bindtap="chooseIcon">
+          <view>
+            <image src="{{iconPlaySucceed}}" class="bofang"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  
+
+</view>

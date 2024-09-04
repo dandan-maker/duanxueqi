@@ -1,5 +1,5 @@
 <view class="bj"></view>
-<image src="/images/登录背景.png" class="image" mode="scaleToFill"></image>
+<image src="http://lc-KixOdMjP.cn-n1.lcfile.com/XlvMfs9BfKM9HadViBULts6nNh8hx6r4/%E7%99%BB%E5%BD%95%E8%83%8C%E6%99%AF.png" class="image" mode="scaleToFill"></image>
 <view class="item">
   <view class="text">欢迎来到生活场景听力测试</view>
   <button class="button" bindtap="login">绑定微信登录</button>

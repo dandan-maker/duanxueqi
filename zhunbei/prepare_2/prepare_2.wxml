@@ -1,0 +1,14 @@
+<!--pages/prepare_2/prepare_2.wxml-->
+<view class="flex-col page">
+  <text class="self-center font text">请把手机音量调</text>
+  <view class="flex-col items-center self-stretch group">
+    <text class="font text_2">最大</text>
+    <image
+      class="mt-24 image"
+      src="http://lc-KixOdMjP.cn-n1.lcfile.com/zIOjlvwXSNGJuCS1nBCL8cvkPaGllQi9/%E9%9F%B3%E9%87%8F%E6%A3%80%E6%B5%8B%20%281%29.png"
+    />
+  </view>
+  <view bindtap="gotonext" class="flex-col justify-start items-center self-center text-wrapper">
+    <text class="font text_3">继续</text>
+  </view>
+</view>

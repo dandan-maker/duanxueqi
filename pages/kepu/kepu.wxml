@@ -1,2 +1,104 @@
-<!--pages/kepu/kepu.wxml-->
-<text>pages/kepu/kepu.wxml</text>
+<view class="flex-col justify-start page">
+  <view class="flex-col section">
+    <view class="flex-row items-start self-stretch group">
+      <view class="flex-col group_2">
+        
+        <view class="flex-col justify-start items-center self-stretch image-wrapper mt-42">
+          <image
+            class="image_4"
+            src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=4b0a99c17d004acfd75e20bd3993a35b.png"
+          />
+        </view>
+      </view>
+      <view class="flex-col flex-1 relative group_10">
+        <view class="flex-row self-start group_1">
+          <image
+            class="self-start image_2"
+            src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=a4b7a7c8519052a552bf363842bbb16f.png"
+          />
+          <view class="flex-col justify-start items-start flex-1 relative group_4">
+            
+            
+          </view>
+        </view>
+        <view class="flex-row items-center self-stretch group_5">
+          <text class="text_2">爱自己</text>
+          <image
+            class="image_5 ml-56"
+            src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=ba40616cc4191ba3150d3041500548ea.png"
+          />
+        </view>
+        <text class="text_3 pos_2">是一场终身修行</text>
+      </view>
+    </view>
+    <view class="flex-col justify-start items-start self-stretch image-wrapper_2">
+      <image
+        class="image_6"
+        src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=4d3ab5fe2e56448581475c1c0cdfc883.png"
+      />
+    </view>
+    <view class="flex-row items-center self-start group_6">
+      <image
+        class="image_7"
+        src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=46ad57459c3ea5c5e889fa584a7cc13e.png"
+      />
+      <text class="text_4">最新新闻</text>
+      <image
+        class="image_8"
+        src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=31fdb65d440dfc87f9af7ca68a227b6b.png"
+      />
+    </view>
+    <view class="flex-col self-start group_7">
+      <view class="flex-row">
+        <image
+          class="shrink-0 image_9"
+          src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=480729c59be524481e4df2c5caef5e29.png"
+        />
+        <image
+          class="flex-1 image_10 ml-24"
+          src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=65962fd810604aa3c66ff9cef3318e45.png"
+        />
+      </view>
+      <view class="flex-row mt-48">
+        <image
+          class="shrink-0 image_9"
+          src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=480729c59be524481e4df2c5caef5e29.png"
+        />
+        <image
+          class="flex-1 image_10 ml-34"
+          src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=65962fd810604aa3c66ff9cef3318e45.png"
+        />
+      </view>
+      <view class="flex-row mt-48">
+        <image
+          class="shrink-0 image_9"
+          src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=480729c59be524481e4df2c5caef5e29.png"
+        />
+        <image
+          class="flex-1 image_10 ml-34"
+          src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=65962fd810604aa3c66ff9cef3318e45.png"
+        />
+      </view>
+      <view class="flex-row group_8 mt-48">
+        <image
+          class="shrink-0 image_9"
+          src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=480729c59be524481e4df2c5caef5e29.png"
+        />
+        <image
+          class="flex-1 image_10 ml-28"
+          src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=65962fd810604aa3c66ff9cef3318e45.png"
+        />
+      </view>
+      <view class="flex-row group_8 mt-48">
+        <image
+          class="shrink-0 image_9"
+          src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=480729c59be524481e4df2c5caef5e29.png"
+        />
+        <image
+          class="flex-1 image_10 ml-28"
+          src="https://ide.code.fun/api/image?token=66d426960412d90011fc5922&name=65962fd810604aa3c66ff9cef3318e45.png"
+        />
+      </view>
+    </view>
+  </view>
+</view>

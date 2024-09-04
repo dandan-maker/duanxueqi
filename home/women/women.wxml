@@ -1,0 +1,36 @@
+<!--pages/women/women.wxml-->
+<view class="flex-col page">
+  <view class="flex-col items-center">
+    <image
+      class="image"
+      src="http://lc-KixOdMjP.cn-n1.lcfile.com/6DK7tJUsJVW5NjhOLMnCbW2myc9CqsMD/%E5%A4%B4%E5%83%8F.png"
+    />
+    <image
+      class="image_2 mt-23"
+      src="http://lc-KixOdMjP.cn-n1.lcfile.com/DLECwbHrNKvmk5NlD2TAHm8zv2E3YvC1/%E6%96%87%E5%AD%97.png"
+    />
+  </view>
+  <view class="flex-col mt-41">
+    <view bindtap="gotochuxin" class="flex-col justify-start relative group">
+      <view class="flex-col justify-start items-center text-wrapper"><text class="font text">创建初心</text></view>
+      <image
+        class="image_3 pos"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/etIluobleY9yThIu0VrxauK0TgL4twWG/%E5%90%91%E5%8F%B3%20%281%29.png"
+      />
+    </view>
+    <view bindtap="maker" class="flex-col justify-start relative group view">
+      <view class="flex-col justify-start items-center text-wrapper_2"><text class="font">初创人员</text></view>
+      <image
+        class="image_3 pos_2"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/etIluobleY9yThIu0VrxauK0TgL4twWG/%E5%90%91%E5%8F%B3%20%281%29.png"
+      />
+    </view>
+    <view bindtap="connectus" class="flex-row justify-center items-center relative section">
+      <text class="font">联系我们</text>
+      <image
+        class="image_4 pos_3"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/etIluobleY9yThIu0VrxauK0TgL4twWG/%E5%90%91%E5%8F%B3%20%281%29.png"
+      />
+    </view>
+  </view>
+</view>

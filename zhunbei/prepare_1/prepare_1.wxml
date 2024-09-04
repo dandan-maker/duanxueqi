@@ -1,0 +1,21 @@
+<view class="flex-col page">
+  <view class="flex-col items-center">
+    <text class="font text">在开始音调测试前</text>
+    <text class="mt-16 font text_2">请确保</text>
+  </view>
+  <view class="flex-col group">
+    <image
+      class="self-center image"
+      src="http://lc-KixOdMjP.cn-n1.lcfile.com/kLP1SPHjmMUQ0JtLIhmmKSvWUYAQRYqK/jingyin%20%281%29.png"
+    />
+    <view class="flex-col self-stretch mt-19">
+      <text class="self-center font_2 text_3">身处安静的地方</text>
+      <image
+        class="self-center image_2 mt-21"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/H5KIt6p0unphOxTp2J2R4NlVubN7Bja2/jiangzao.png"
+      />
+      <text class="self-start font_2 text_4 mt-21">关闭降噪功能</text>
+    </view>
+  </view>
+  <view bindtap="gotonext" class="flex-col justify-start items-center text-wrapper"><text class="font text_5">继续</text></view>
+</view>

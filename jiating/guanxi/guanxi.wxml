@@ -1,0 +1,15 @@
+<!--pages/guanxi/guanxi.wxml-->
+<view class="flex-col page">
+  <text class="self-center font">选择家人关系</text>
+  <view class="self-stretch grid">
+    <view bindtap="gotoxinxi" class="flex-col justify-start items-center grid-item"><text class="font_2 text_1">爸爸</text></view>
+    <view bindtap="gotoxinxi_1" class="flex-col justify-start items-center grid-item_2"><text class="font_2">妈妈</text></view>
+    <view biandtap="gotoxinxi_2" class="flex-col justify-start items-center grid-item_3"><text class="font_2 text_2">儿子</text></view>
+    <view bindtap="gotoxinxi_3" class="flex-col justify-start items-center grid-item_4"><text class="font_2 text_3">女儿</text></view>
+    <view bindtap="gotoxinxi_4" class="flex-col justify-start items-center grid-item_5"><text class="font_2">老伴</text></view>
+    <view bindtap="gotoxinxi_5" class="flex-col justify-start items-center grid-item_6"><text class="font_2 text_4">亲人</text></view>
+    <view bindtap="gotoxinxi_6" class="flex-col justify-start items-center grid-item_7"><text class="font_2 text_5">朋友</text></view>
+    <view bindtap="gotozidingyi" class="flex-col justify-start items-center grid-item_8"><text class="font_2 text_6">自定义</text></view>
+  </view>
+  
+</view>

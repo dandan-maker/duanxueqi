@@ -4,6 +4,7 @@
   color: white;
   margin-top: 30rpx;
   border-radius: 20rpx;
+  margin-left: 50rpx;
 }
 
 .bj {
@@ -18,13 +19,14 @@
 }
 
 .item {
-  width: 90%;
+  width: 95%;
   border-radius: 15px;
   padding: 20px;
 }
 
 .text {
   margin-top: 30rpx;
+  margin-left: 40rpx;
   text-align: center;
   color: #142665;
   text-shadow: 2rpx 2rpx 5rpx #f2c8bf;
@@ -32,8 +34,8 @@
   font-weight: bold;
 }
 .checkbox-group {
-  margin-top: 10px;
-  margin-left: 80rpx;
+  margin-top: 20rpx;
+  margin-left: 40rpx;
   text-align:center;
 }
 

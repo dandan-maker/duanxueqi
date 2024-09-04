@@ -1,23 +1,27 @@
 // pages/wode/wode.js
+const AV = require('../../libs/av-core-min.js');
+const user = AV.User.current();
 Page({
 
   data: {
-    userInfo: ''
+    userInfo: '',
+    nickname:'昵称'
   },
-  onLoad() {
-    let user = wx.getStorageSync('user')
+  onShow() {
+    let users = wx.getStorageSync('users')
     this.setData({
-      userInfo: user
+      userInfo: users,
+      nickname:user.get("nickname")
     })
   },
   gotoxinxi(){
     wx.navigateTo({
-      url: '/pages/xinxi/xinxi',
+      url: '/home/xinxi/xinxi',
     })
   },
   gotowomen(){
     wx.navigateTo({
-      url: '/pages/women/women',
+      url: '/home/women/women',
     })
     
   },
@@ -29,17 +33,22 @@ Page({
   },
   xiazai(){
     wx.navigateTo({
-      url: '/pages/yinping/yinping',
+      url: '/home/yinping/yinping',
     })
   },
   gotofamily(){
     wx.navigateTo({
-      url: '/pages/family/family',
+      url: '/home/family/family',
     })
   },
   gotozixun(){
     wx.navigateTo({
-      url: '/pages/zixun/zixun',
+      url: '/home/zixun/zixun',
+    })
+  },
+  gototouxiang(){
+    wx.navigateTo({
+      url: '/home/touxiang/touxiang',
     })
   }
                           

@@ -6,12 +6,16 @@
       src="http://lc-KixOdMjP.cn-n1.lcfile.com/X5nmoGbU0cplI8J4S9L7zY6m7MIntCOT/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83.png"
     />
     <view class="flex-row justify-center self-stretch group mt-7">
-      <view class="flex-row">
-        <image
+      <view bindtap="gototouxiang" class="flex-row">
+        <image wx:if="{{!userInfo.gender}}"
           class="shrink-0 image_2"
-          src="{{userInfo.avatarUrl}}"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/YO3vxYsDyWb2ocd5CHtjvn4CCV9qkdjN/%E8%80%81%E5%A5%B6%E5%A5%B6.png"
         />
-        <text class="self-start font text ml-18">{{userInfo.nickName}}</text>
+        <image wx:else
+          class="shrink-0 image_2"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/6c0KflruPvOHqbA9HvPM9SwGj1VGv5Tn/%E8%80%81%E7%88%B7%E7%88%B7.png"
+        />
+        <text class="self-start font text ml-18">{{nickname}}</text>
       </view>
       <view bindtap="gotoxinxi" class="flex-row items-center self-start section_2 ml-20">
         <image

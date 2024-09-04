@@ -2,12 +2,98 @@
   "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
   "projectname": "miniprogram-1",
   "setting": {
-    "compileHotReLoad": true
+    "compileHotReLoad": true,
+    "urlCheck": false,
+    "bigPackageSizeSupport": true
   },
-  "libVersion": "2.20.3",
+  "libVersion": "3.5.5",
   "condition": {
     "miniprogram": {
       "list": [
+        {
+          "name": "home/lianxi/lianxi",
+          "pathName": "home/lianxi/lianxi",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "home/touxiang/touxiang",
+          "pathName": "home/touxiang/touxiang",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/wode/wode",
+          "pathName": "pages/wode/wode",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "home/yinping/yinping",
+          "pathName": "home/yinping/yinping",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "home/lianxi/lianxi",
+          "pathName": "home/lianxi/lianxi",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "home/zixun/zixun",
+          "pathName": "home/zixun/zixun",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/kepu/kepu",
+          "pathName": "pages/kepu/kepu",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/baogao/baogao",
+          "pathName": "pages/baogao/baogao",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/family/family",
+          "pathName": "pages/family/family",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/xinxi_/xinxi_",
+          "pathName": "pages/xinxi_/xinxi_",
+          "query": "relationship=%E7%88%B8%E7%88%B8",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/guanxi/guanxi",
+          "pathName": "pages/guanxi/guanxi",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/zixun/zixun",
+          "pathName": "pages/zixun/zixun",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
         {
           "name": "pages/member/member",
           "pathName": "pages/member/member",

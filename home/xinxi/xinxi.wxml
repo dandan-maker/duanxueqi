@@ -1,0 +1,16 @@
+<!--pages/xinxi/xinxi.wxml-->
+<view class="flex-col page">
+  <view class="flex-row items-center">
+    <text class="font">姓名</text>
+    <input bindinput="savename" value="{{name}}" type="text" class="ml-30 flex-1 section"></input>
+  </view>
+  <view class="flex-row items-center group">
+    <text class="font">性别</text>
+    <input value="{{gender}}" bindinput="savegender" placeholder="男/女" class="ml-28 flex-1 section_2"></input>
+  </view>
+  <view class="flex-row items-center group_2">
+    <text class="font text">年龄</text>
+    <input value="{{age}}" bindinput="saveage" placeholder="请输入数字" type="number" class="ml-28 flex-1 section_2"></input>
+  </view>
+  <view bindtap="goback" class="flex-col justify-start items-center text-wrapper"><text class="text_2">修改并保存</text></view>
+</view>

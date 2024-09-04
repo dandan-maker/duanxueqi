@@ -24,4 +24,19 @@ function uploadUserAnswer(scene_num, userSentence) {
   user.save()
 }
 
-export {uploadUserAnswer}
+function uploadUserAnswer_1(scene_num, userSentence,id) {
+  var family = user.get("family")
+  
+  // console.log(answer)
+  if (!family[id].answer) {  //如果Leancloud中无先前存储的用户答案，则初始化赋为默认值
+   family[id].answer = defaultData
+  }
+  family[id].answer[scene_num]=userSentence
+  // console.log(answer)
+  //存到服务器并保存
+  user.set("family", family)
+  user.save()
+}
+
+
+export {uploadUserAnswer,uploadUserAnswer_1}

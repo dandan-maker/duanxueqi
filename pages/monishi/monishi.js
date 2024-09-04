@@ -10,7 +10,7 @@ Page({
   // 跳转到模拟室页面
   open:function(){
     wx.navigateTo({
-      url: '../moni/moni',
+      url: '/simulation/moni/moni',
     })
   },
   /**

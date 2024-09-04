@@ -1,0 +1,15 @@
+<!--pages/prepare/prepare.wxml-->
+<view class="flex-col page">
+  <view class="flex-col items-center group">
+    <text class="font text">找一个安静的地方</text>
+    <image class="shrink-0 image"
+      src="http://lc-KixOdMjP.cn-n1.lcfile.com/zIOjlvwXSNGJuCS1nBCL8cvkPaGllQi9/%E9%9F%B3%E9%87%8F%E6%A3%80%E6%B5%8B%20%281%29.png"
+    />
+    <image
+      class="shrink-0 image_2"
+      src="http://lc-KixOdMjP.cn-n1.lcfile.com/Buw7JgEougkn8aXhEEk2uSvzsvxsq9ge/%E9%9F%B3%E9%87%8F%E6%A3%80%E6%B5%8B%20%282%29.png"
+    />
+    <text class="text_2">安静</text>
+  </view>
+  <view bindtap="gotonext" class="flex-col justify-start items-center text-wrapper"><text class="font text_3">继续</text></view>
+</view>

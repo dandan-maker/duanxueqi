@@ -1,0 +1,12 @@
+<view class="flex-col page">
+  <button class="zzz">
+<image class="zzz" mode="scaleToFill" src="{{avatarUrl}}"></image>
+</button>
+  <view class="flex-col justify-start self-stretch group">
+    <view class="flex-row section">
+      <text class="relative font text_1">昵称</text>
+      <input bindinput="getname" class="font text ml-58" type="nickname" placeholder="请输入昵称" />
+    </view>
+  </view>
+  <view bindtap="baocun" class="flex-col justify-start items-center self-center text-wrapper"><text class="text_2">保存</text></view> 
+</view>

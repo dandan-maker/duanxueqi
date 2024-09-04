@@ -1,0 +1,34 @@
+<!--pages/family/family.wxml-->
+<view class="flex-col page">
+  <view class="flex-row justify-center items-center section">
+    
+    <image wx:if="{{!userInfo.gender}}" class="image" src="http://lc-KixOdMjP.cn-n1.lcfile.com/YO3vxYsDyWb2ocd5CHtjvn4CCV9qkdjN/%E8%80%81%E5%A5%B6%E5%A5%B6.png"></image>
+    <image wx:else class="image" src="http://lc-KixOdMjP.cn-n1.lcfile.com/6c0KflruPvOHqbA9HvPM9SwGj1VGv5Tn/%E8%80%81%E7%88%B7%E7%88%B7.png"></image>
+    <view class="ml-14 flex-col items-start group">
+      <text class="text">欢迎您，</text>
+      <text class="mt-20 font text_2">{{nickname}}</text>
+    </view>
+  </view>
+  <view class="flex-col group_2">
+    <view class="flex-row items-center group_3" bindtap="addpeople">
+      <image
+        class="image_2"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/j6qqRbPo7lOuvrN4zmQ7Cp3qx4KcMKAD/%E5%8A%A0%E5%8F%B7.png"
+      />
+      <text class="text_3 ml-9">添加联系人</text>
+    </view>
+    <scroll-view scroll-y="true" style="height: 700rpx;" class="flex-col section_2">
+      <view data-id="{{index}}" wx:for="{{family}}" wx:key="index" bindtap="gotomember" class="flex-col justify-start relative group_4">
+        <view class="flex-col justify-start items-start text-wrapper">
+          <text class="font text_4 text_5">{{item.name}}</text>
+        </view>
+        <image
+          class="image_3 pos"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/SrXkhtFlaklqmxxe3I4DpCHXMcYrIBoW/arrow.png"
+        />
+      </view>
+      
+      
+    </scroll-view>
+  </view>
+</view>

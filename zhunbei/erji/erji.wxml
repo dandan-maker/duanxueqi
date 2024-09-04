@@ -1,0 +1,11 @@
+<!--pages/erji/erji.wxml-->
+<view class="flex-col page">
+  <text class="self-center font text">请佩戴耳机</text>
+  <image
+    class="self-center image"
+    src= "http://lc-KixOdMjP.cn-n1.lcfile.com/Na1rsLK0zCNxSCw3OoNkQ9za8Jx5Uunh/%E8%80%B3%E6%9C%BA.png"
+  />
+  <view bindtap="gonext" class="flex-col justify-start items-center self-stretch text-wrapper">
+    <text class="font text_2">继续</text>
+  </view>
+</view>

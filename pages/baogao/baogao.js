@@ -129,7 +129,14 @@ Page({
   },
 
   onShow() {
+    wx.pageScrollTo({
+      scrollTop: 0,
+      duration: 0,
+    })
     if (user) {
+      user.fetch().then((user) => {
+      
+      });
       const answer = user.get("answer");
       console.log("这是用户输入",answer);  // 打印出 answer 的内容进行检查
       // 如果需要，可以在这里将 answer 数据设置到页面的数据中

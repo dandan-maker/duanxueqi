@@ -43,7 +43,7 @@ Page({
     let target_scene = event.currentTarget.dataset.id;
     // console.log(target_scene);
     wx.navigateTo({
-      url: '/pages/testpages/test_'+target_scene+'/test_'+target_scene+'?origin='+1,
+      url: '/zhunbei/erji/erji?origin=1'+'&target_scene='+target_scene,
     })
   },
   

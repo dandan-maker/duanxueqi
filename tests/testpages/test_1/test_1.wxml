@@ -1,0 +1,19 @@
+<!--pages/testpages/test_1/test_1.wxml-->
+<view class="cover">
+  <input wx:if="{{iptShow}}" bindinput="onIpt" type="text" placeholder="请输入听到的内容（10字）" maxlength="10" confirm-type="done" value="{{iptValue}}" class="ipt"/>
+  <image src="http://lc-KixOdMjP.cn-n1.lcfile.com/mn5my8D6F6C7hOMJmnUVPlet0h5eLMwy/testpages_1.jpg" mode="widthFix" class="bgImg"/>
+</view>
+
+<view class="guide">
+  <view class="title">语谱噪声测试</view>
+  <progress stroke-width="30" border-radius='20' backgroundColor="var(--bgColorLightPink)" activeColor="var(--themeColorBlue)" show-info="true" percent="{{prog}}" class="prog"/>
+  <view class="home">
+    <image wx:if="{{isEnd}}" src="http://lc-KixOdMjP.cn-n1.lcfile.com/QEGa1K0SmetjfHwnE4W858lq9yBq4dU6/index_homeIcon.png" mode="heightFix" class="homeImg" bindtap="onBackHome"/>
+    <text wx:if="{{isEnd}}">返回</text>
+  </view>
+  <view class="next">
+    <image src="http://lc-KixOdMjP.cn-n1.lcfile.com/awu4ynJXoijdFKee95wnrXTDjH82TNNX/testpages_rightArrow.png" mode="heightFix" class="nextImg" bindtap="onNext"/>
+    <text wx:if="{{!isEnd}}">下一题</text>
+    <text wx:else>继续测试</text>
+  </view>
+</view>

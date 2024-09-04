@@ -1,10 +1,12 @@
 {
   "usingComponents": {
-    "van-popup": "@vant/weapp/popup/index",
+    "van-popup": "/miniprogram/miniprogram_npm/@vant/weapp/popup/index",
     "YupuONE": "../../components/yupuONE/yupuONE",
     "Zongheceshi": "../../components/zongheceshi/zongheceshi",
-    "van-circle": "@vant/weapp/circle/index"
-  }
-
-
+    "van-circle": "/miniprogram/miniprogram_npm/@vant/weapp/circle/index"
+  },
+  "navigationStyle": "custom",
+  "disableScroll": true
 }
+
+

@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "van-popup": "/miniprogram/miniprogram_npm/@vant/weapp/popup/index",
+    "YupuONE": "../../components/yupuONE/yupuONE",
+    "Zongheceshi": "../../components/zongheceshi/zongheceshi",
+    "van-circle": "/miniprogram/miniprogram_npm/@vant/weapp/circle/index"
+  },
+  "navigationBarBackgroundColor": "#f7e9e8"
+  
+
+
+}
