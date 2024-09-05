@@ -12,7 +12,7 @@
           <text class="text">爱自己</text>
           <image
             class="shrink-0 image_2 ml-56"
-            src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=ba40616cc4191ba3150d3041500548ea.png"
+            src="http://lc-KixOdMjP.cn-n1.lcfile.com/1H3Ymolj36NYmSaYUqOlDp9FAv1a2uwD/%E5%9B%BE%E6%A0%87%206.png"
           />
         </view>
         <text class="text_2">是一场修行</text>
@@ -22,7 +22,7 @@
       <view class="flex-row items-center grid-item" bind:tap="onClick">
         <image
           class="shrink-0 image_4"
-          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=808262846e158c4405484c20a10f0f7e.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/qAclCH1wfYD9qFNAJeyV3vMJgBQsQm9N/%E5%9B%BE%E7%89%87%201%20%281%29.png"
         />
         <view class="flex-col items-start flex-1 ml-20">
           <text class="font_3">什么是听力下降</text>
@@ -32,7 +32,7 @@
       <view class="flex-row items-center grid-item_2" bind:tap="onClick_1">
         <image
           class="shrink-0 image_4"
-          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=ac34d7868505019918cd827db8deaf1a.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/wJbxpQKnJaLTP2mp8A66uVzT2Klwtfd5/%E5%9B%BE%E7%89%87%201%20-%20%E5%89%AF%E6%9C%AC%203%20%281%29.jpg"
         />
         <view class="flex-col items-start flex-1 group_3 ml-30">
           <text class="font_3">听力下降怎么办</text>
@@ -42,7 +42,7 @@
       <view class="flex-row items-center grid-item_4" bind:tap="onClick_2">
         <image
           class="shrink-0 image_4"
-          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=0ac45ac44804800118293f15d52ade1a.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/x0fyenAUtYebRUL5OpFFGz7DS09gNDDi/%E5%9B%BE%E7%89%87%206.jpg"
         />
         <view class="flex-col items-start flex-1 ml-8">
           <text class="font_3">听力治疗知多少</text>
@@ -52,7 +52,7 @@
       <view class="flex-row items-center grid-item_3" bind:tap="onClick_3">
         <image
           class="shrink-0 image_4"
-          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=81fa0453a8c5f5896b050669662f9d65.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/huQsVnAREWoJtvxMQz5Fu5zHRdxMywLM/%E5%9B%BE%E7%89%87%201%20-%20%E5%89%AF%E6%9C%AC%205.png"
         />
         <view class="flex-col items-start flex-1 ml-28">
           <text class="font_3">家人可以做什么</text>
@@ -62,7 +62,7 @@
       <view class="flex-row items-center grid-item_5" bind:tap="onClick_4">
         <image
           class="shrink-0 image_4"
-          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=7e366579deef196557f41c3037e990cb.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/ssm1jGrS8jdexnaUlYqnVxUSvTkDdsUa/%E5%9B%BE%E7%89%87%201%20-%20%E5%89%AF%E6%9C%AC%201.jpg"
         />
         <view class="flex-col items-start flex-1 group_4 ml-12">
           <text class="font_3">如何看懂报告</text>
@@ -72,7 +72,7 @@
       <view class="flex-row items-center grid-item_6" bind:tap="onClick_5">
         <image
           class="image_4"
-          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=c573d2622020390a3c3211f4284d493e.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/NbsEWGCaWTsSjajJQzzzOGaFR6XwUOX7/%E5%9B%BE%E7%89%87%201%20-%20%E5%89%AF%E6%9C%AC%204.jpg"
         />
         <view class="flex-col items-start group_5 ml-30">
           <text class="font_3">发现听损</text>
@@ -83,12 +83,12 @@
     <view class="flex-row items-center group_6">
       <image
         class="image_9"
-        src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=46ad57459c3ea5c5e889fa584a7cc13e.png"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/dMgFrmV2gCjY8VUzyFuR7R6o1dSJyUUY/%E5%9B%BE%E6%A0%87%208.png"
       />
       <text class="text_8">最新新闻</text>
       <image
         class="image_10"
-        src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=31fdb65d440dfc87f9af7ca68a227b6b.png"
+        src="http://lc-KixOdMjP.cn-n1.lcfile.com/qT6wQXOVqiqs3DYFKiGzvhVmceGVzTSp/%E5%9B%BE%E6%A0%87%209.png"
       />
     </view>
     <view class="flex-col group_7">
