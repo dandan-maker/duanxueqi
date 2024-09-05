@@ -1,0 +1,100 @@
+.mt-37 {
+  margin-top: 84.92rpx;
+}
+.page {
+  padding-bottom: 68.65rpx;
+  background-color: #f7e9e8;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  padding: 11.9rpx 11.9rpx 7.94rpx;
+  background-color: #f7e9e8;
+  width: 750rpx;
+  height: 1333.93rpx;
+}
+.font {
+  font-size: 59.92rpx;
+  font-family: STXinwei;
+  line-height: 56.94rpx;
+  color: #2f3e72;
+}
+.text {
+  margin-left: 9.92rpx;
+  line-height: 120.04rpx;
+}
+.text-wrapper {
+  padding: 8.93rpx 0;
+  background-image: url('https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=e05902acd9310d49994c0893263f61ad.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 66.07rpx;
+  height: 66.07rpx;
+}
+.text_2 {
+  margin-right: 20.04rpx;
+  line-height: 59.92rpx;
+}
+.section_2 {
+  background-color: #2f3e72;
+  border-radius: 7.94rpx;
+  width: 600rpx;
+  height: 100rpx;
+}
+.text-wrapper_2 {
+  padding: 7.94rpx 0;
+  background-image: url('https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=e05902acd9310d49994c0893263f61ad.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 66.07rpx;
+  height: 66.07rpx;
+}
+.section_3 {
+  background-color: #ffffff;
+  border-radius: 7.94rpx;
+  width: 600rpx;
+  height: 100rpx;
+}
+.text-wrapper_3 {
+  padding: 7.94rpx 0;
+  background-image: url('https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=e05902acd9310d49994c0893263f61ad.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 66.07rpx;
+  height: 66.07rpx;
+}
+.text_3 {
+  line-height: 56.94rpx;
+}
+.text_5 {
+  line-height: 56.94rpx;
+}
+.text-wrapper_4 {
+  padding: 6.94rpx 0 9.92rpx;
+  background-image: url('https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=e05902acd9310d49994c0893263f61ad.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 66.07rpx;
+  height: 66.07rpx;
+}
+.text_4 {
+  line-height: 56.94rpx;
+}
+.font_1 {
+  
+  margin-left: 5.87rpx;
+  color: #ffffff;
+  font-size: 35rpx;
+ 
+  line-height: 51.43rpx;
+}
+.font_2 {
+  
+  margin-left: 5.87rpx;
+  color: #2f3e72;
+  font-size: 35rpx;
+ 
+  line-height: 51.43rpx;
+}

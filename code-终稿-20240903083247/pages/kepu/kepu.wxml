@@ -1,0 +1,127 @@
+<view class="flex-col justify-start items-start page">
+  <view class="flex-col section">
+    <view class="flex-row group">
+      <view class="flex-col justify-start items-center self-center image-wrapper">
+        <image
+          class="image"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=4b0a99c17d004acfd75e20bd3993a35b.png"
+        />
+      </view>
+      <view class="flex-col justify-start items-start self-start relative group_2 ml-46">
+        <view class="flex-row items-center">
+          <text class="text">爱自己</text>
+          <image
+            class="shrink-0 image_2 ml-56"
+            src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=ba40616cc4191ba3150d3041500548ea.png"
+          />
+        </view>
+        <text class="text_2">是一场修行</text>
+      </view>
+    </view>
+    <view class="grid">
+      <view class="flex-row items-center grid-item" bind:tap="onClick">
+        <image
+          class="shrink-0 image_4"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=808262846e158c4405484c20a10f0f7e.png"
+        />
+        <view class="flex-col items-start flex-1 ml-20">
+          <text class="font_3">什么是听力下降</text>
+          <text class="font_2 text_4 mt-12">3篇内容</text>
+        </view>
+      </view>
+      <view class="flex-row items-center grid-item_2" bind:tap="onClick_1">
+        <image
+          class="shrink-0 image_4"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=ac34d7868505019918cd827db8deaf1a.png"
+        />
+        <view class="flex-col items-start flex-1 group_3 ml-30">
+          <text class="font_3">听力下降怎么办</text>
+          <text class="font_2 mt-18">2篇内容</text>
+        </view>
+      </view>
+      <view class="flex-row items-center grid-item_4" bind:tap="onClick_2">
+        <image
+          class="shrink-0 image_4"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=0ac45ac44804800118293f15d52ade1a.png"
+        />
+        <view class="flex-col items-start flex-1 ml-8">
+          <text class="font_3">听力治疗知多少</text>
+          <text class="font_2 text_5 mt-18">4篇内容</text>
+        </view>
+      </view>
+      <view class="flex-row items-center grid-item_3" bind:tap="onClick_3">
+        <image
+          class="shrink-0 image_4"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=81fa0453a8c5f5896b050669662f9d65.png"
+        />
+        <view class="flex-col items-start flex-1 ml-28">
+          <text class="font_3">家人可以做什么</text>
+          <text class="font_2 mt-22">2篇内容</text>
+        </view>
+      </view>
+      <view class="flex-row items-center grid-item_5" bind:tap="onClick_4">
+        <image
+          class="shrink-0 image_4"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=7e366579deef196557f41c3037e990cb.png"
+        />
+        <view class="flex-col items-start flex-1 group_4 ml-12">
+          <text class="font_3">如何看懂报告</text>
+          <text class="font_2 text_7 mt-18">1篇内容</text>
+        </view>
+      </view>
+      <view class="flex-row items-center grid-item_6" bind:tap="onClick_5">
+        <image
+          class="image_4"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=c573d2622020390a3c3211f4284d493e.png"
+        />
+        <view class="flex-col items-start group_5 ml-30">
+          <text class="font_3">发现听损</text>
+          <text class="font_2 mt-18">3篇内容</text>
+        </view>
+      </view>
+    </view>
+    <view class="flex-row items-center group_6">
+      <image
+        class="image_9"
+        src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=46ad57459c3ea5c5e889fa584a7cc13e.png"
+      />
+      <text class="text_8">最新新闻</text>
+      <image
+        class="image_10"
+        src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=31fdb65d440dfc87f9af7ca68a227b6b.png"
+      />
+    </view>
+    <view class="flex-col group_7">
+      <view class="flex-row">
+        <image
+          class="image_11"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=480729c59be524481e4df2c5caef5e29.png"
+        />
+        <image
+          class="image_12 ml-24"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=65962fd810604aa3c66ff9cef3318e45.png"
+        />
+      </view>
+      <view class="flex-row mt-48">
+       <image
+          class="image_11"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=480729c59be524481e4df2c5caef5e29.png"
+        />
+        <image
+          class="image_12 ml-34"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=65962fd810604aa3c66ff9cef3318e45.png"
+        />
+      </view>
+      <view class="flex-row mt-48">
+        <image
+          class="image_11"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=480729c59be524481e4df2c5caef5e29.png"
+        />
+        <image
+          class="image_12 ml-34"
+          src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=65962fd810604aa3c66ff9cef3318e45.png"
+        />
+      </view>
+    </view>
+  </view>
+</view>

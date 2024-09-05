@@ -1,0 +1,41 @@
+<view class="flex-col justify-start items-start page">
+  <view class="flex-col section">
+    <text class="self-start font text">听力治疗知多少</text>
+    <view class="mt-38 flex-col self-stretch">
+      <view class="flex-row">
+        <view class="flex-col justify-start items-end self-start text-wrapper"><text class="font text_2">1</text></view>
+        <view class="ml-48 section_2"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/zpCxAs4K0SrLYzCxoijsMg">
+          <text class="font_1">警惕！这些药物可能损伤你的耳朵</text>
+        </view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2"><text class="font">2</text></view>
+        <view class="ml-48 section_3"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/mca_F2gL8fj_nYbvUVaF0g">
+          <text class="font_2">助听器为什么这么贵？</text>
+        </view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2"><text class="font">3</text></view>
+        <view class="ml-48 section_2"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/qcqoG0mDmzznT2LVMt5oZw"><text class="font_1">助听器通道数是不是越多越好？聊一聊通道背后的技术</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_3">
+          <text class="font text_3">4</text>
+        </view>
+        <view class="ml-48 section_3"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/WQe2rQt2SJgRU2To2tGQDg"><text class="font_2">什么是开放式助听器？</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2">
+          <text class="font text_5">5</text>
+        </view>
+        <view class="ml-48 section_2"><text class="font_1">敬请期待</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_4">
+          <text class="font text_4">6</text>
+        </view>
+        <view class="ml-48 section_3"><text class="font_2">敬请期待</text></view>
+      </view>
+    </view>
+  </view>
+</view>

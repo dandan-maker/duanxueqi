@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/kepu/kepu",
+    "pages/jiemian1/jiemian1",
+    "pages/jiemian1_1/jiemian1_1",
+    "pages/jiemian1_2/jiemian1_2",
+    "pages/jiemian1_3/jiemian1_3",
+    "pages/jiemian1_4/jiemian1_4",
+    "pages/jiemian1_5/jiemian1_5",
+    "pages/webview/webview"
+    
+  ]
+}

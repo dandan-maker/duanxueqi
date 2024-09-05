@@ -1,0 +1,41 @@
+<view class="flex-col justify-start items-start page">
+  <view class="flex-col section">
+    <text class="self-start font text">什么是听力下降</text>
+    <view class="mt-38 flex-col self-stretch">
+      <view class="flex-row">
+        <view class="flex-col justify-start items-end self-start text-wrapper"><text class="font text_2">1</text></view>
+        <view class="ml-48 section_2"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/SDUVvlKwK0IDN0nZHBNdpw">
+          <text class="font_1">听力损失的六个冷知识</text>
+        </view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2"><text class="font">2</text></view>
+        <view class="ml-48 section_3"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/z3k2jKgExt1lAC75VzqDZQ">
+          <text class="font_2">不仅仅是听不见！您绝对想不到，老年性耳聋还有这么多危害！</text>
+        </view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2"><text class="font">3</text></view>
+        <view class="ml-48 section_2"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/Iv5VXUT9llRkKBmhU3gpeg"><text class="font_1">这几个迹象表明你有听力问题</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_3">
+          <text class="font text_3">4</text>
+        </view>
+        <view class="ml-48 section_3"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/fTQM8mF11vw17thgHkYZDQ"><text class="font_2">失眠的时候听歌真的助眠吗？</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2">
+          <text class="font text_5">5</text>
+        </view>
+        <view class="ml-48 section_2"><text class="font_1">敬请期待</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_4">
+          <text class="font text_4">6</text>
+        </view>
+        <view class="ml-48 section_3"><text class="font_2">敬请期待</text></view>
+      </view>
+    </view>
+  </view>
+</view>

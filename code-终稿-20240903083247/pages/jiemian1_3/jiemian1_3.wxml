@@ -1,0 +1,41 @@
+<view class="flex-col justify-start items-start page">
+  <view class="flex-col section">
+    <text class="self-start font text">如何看懂报告</text>
+    <view class="mt-38 flex-col self-stretch">
+      <view class="flex-row">
+        <view class="flex-col justify-start items-end self-start text-wrapper"><text class="font text_2">1</text></view>
+        <view class="ml-48 section_2"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/7YY3jUYThRw9JA419nWuFQ">
+          <text class="font_1">如何看懂听力图</text>
+        </view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2"><text class="font">2</text></view>
+        <view class="ml-48 section_3"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/pMiHvneRwEsNkuvjPtDSgg">
+          <text class="font_2">新生儿要做哪些听力检查</text>
+        </view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2"><text class="font">3</text></view>
+        <view class="ml-48 section_2"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/r0UP3JSLHIC3LjnB1MkClA"><text class="font_1">世界卫生组织：到2050年，四分之一人口将存在听力问题</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_3">
+          <text class="font text_3">4</text>
+        </view>
+        <view class="ml-48 section_3"><text class="font_2">敬请期待</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2">
+          <text class="font text_5">5</text>
+        </view>
+        <view class="ml-48 section_2"><text class="font_1">敬请期待</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_4">
+          <text class="font text_4">6</text>
+        </view>
+        <view class="ml-48 section_3"><text class="font_2">敬请期待</text></view>
+      </view>
+    </view>
+  </view>
+</view>

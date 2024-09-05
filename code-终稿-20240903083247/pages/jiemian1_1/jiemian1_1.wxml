@@ -1,0 +1,46 @@
+<view class="flex-col justify-start items-start page">
+  <view class="flex-col section">
+    <text class="self-start font text">如何发现听损</text>
+    <view class="mt-38 flex-col self-stretch">
+      <view class="flex-row">
+        <view class="flex-col justify-start items-end self-start text-wrapper"><text class="font text_2">1</text></view>
+        <view class="ml-48 section_2" bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/tnm0G_poreUrFq-1o_Y_xw">
+          <text class="font_1">2024世界听力日主题发布</text>
+        </view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2"><text class="font">2</text></view>
+        <view class="ml-48 section_3"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/9O0Fzy-kDwoEXu-YFrilLg">
+          <text class="font_2">3月3日第25个全国“爱耳日”</text>
+        </view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2"><text class="font">3</text></view>
+        <view class="ml-48 section_2"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/po1rRVlKLaJ3ZGichn3BCA"><text class="font_1">全球首个！《柳叶刀》：这种遗传性耳聋有治了</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_3">
+          <text class="font text_3">4</text>
+        </view>
+        <view class="ml-48 section_3"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/akoBWP4v9w-YtDaZlMRDag"><text class="font_2">开放耳助听器，舒适与隐蔽的完美结合</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2">
+          <text class="font text_5">5</text>
+        </view>
+        <view class="ml-48 section_2"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/7KUN0uHHbJDHYPcSG3kYJA"><text class="font_1">同一个声音，不同人听到的是不一样的？</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_4">
+          <text class="font text_4">6</text>
+        </view>
+        <view class="ml-48 section_3"><text class="font_2">敬请期待</text></view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+  
+
+

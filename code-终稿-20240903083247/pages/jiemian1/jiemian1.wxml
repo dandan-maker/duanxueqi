@@ -1,0 +1,41 @@
+<view class="flex-col justify-start items-start page">
+  <view class="flex-col section">
+    <text class="self-start font text">家人可以做什么</text>
+    <view class="mt-38 flex-col self-stretch">
+      <view class="flex-row">
+        <view class="flex-col justify-start items-end self-start text-wrapper"><text class="font text_2">1</text></view>
+        <view class="ml-48 section_2"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/JEfXeuPXDHM4eMeUS-hv0A">
+          <text class="font_1">你听到的世界vs听力障碍者听到的世界</text>
+        </view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2"><text class="font">2</text></view>
+        <view class="ml-48 section_3"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/9PbcxJywg7xqqjYJP_G-WA">
+          <text class="font_2">春节最伤害听力的三大行为</text>
+        </view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2"><text class="font">3</text></view>
+        <view class="ml-48 section_2"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/W_HH5j8LA0Ivz8MUQHNzKA"><text class="font_1">带上助听器，生活没问题</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_3">
+          <text class="font text_3">4</text>
+        </view>
+        <view class="ml-48 section_3"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/GLldfRWd-KGjDj3cP0fknQ"><text class="font_2">再不重视老人的听力问题，就晚了！</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_2">
+          <text class="font text_5">5</text>
+        </view>
+        <view class="ml-48 section_2"bindtap="handleWebViewTap" data-url="https://mp.weixin.qq.com/s/3EraskRQU9qbQxoIEPn4sA"><text class="font_1">“你说大声点！再说一遍！”重视老年性聋</text></view>
+      </view>
+      <view class="flex-row mt-37">
+        <view class="flex-col justify-start items-center self-start text-wrapper_4">
+          <text class="font text_4">6</text>
+        </view>
+        <view class="ml-48 section_3"><text class="font_2">敬请期待</text></view>
+      </view>
+    </view>
+  </view>
+</view>
