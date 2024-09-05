@@ -1,82 +1,82 @@
 <view class="flex-col justify-start items-start page">
   <view class="flex-col section">
-    <view class="flex-row group">
-      <view class="flex-col justify-start items-center self-center image-wrapper">
+    <view class="flex-row items-center group">
+      <view class="flex-col justify-start items-center image-wrapper">
         <image
           class="image"
-          src="http://lc-KixOdMjP.cn-n1.lcfile.com/zG2JJlTmBxLW6aCXsBkb0fcYD0GCU2io/4b0a99c17d004acfd75e20bd3993a35b.png"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/bWFtI4GFXLiGaE2jR6hQY72pw7mYnISs/17252794615261837111.png"
         />
       </view>
-      <view class="flex-col justify-start items-start self-start relative group_2 ml-46">
+      <view class="flex-col justify-start items-start relative group_2 ml-46">
         <view class="flex-row items-center">
           <text class="text">爱自己</text>
           <image
             class="shrink-0 image_2 ml-56"
-            src="http://lc-KixOdMjP.cn-n1.lcfile.com/1H3Ymolj36NYmSaYUqOlDp9FAv1a2uwD/%E5%9B%BE%E6%A0%87%206.png"
+            src="http://lc-KixOdMjP.cn-n1.lcfile.com/KU0QvAYJNqnxCCA5p3SJFq8BsM7hmgHj/17252845959141734037.png"
           />
         </view>
         <text class="text_2">是一场修行</text>
       </view>
     </view>
-    <view class="grid">
-      <view class="flex-row items-center grid-item" bind:tap="onClick">
+    <view class="flex-col mt-68">
+      <view class="flex-row items-center section_2">
         <image
-          class="shrink-0 image_4"
-          src="http://lc-KixOdMjP.cn-n1.lcfile.com/qAclCH1wfYD9qFNAJeyV3vMJgBQsQm9N/%E5%9B%BE%E7%89%87%201%20%281%29.png"
+          class="image_6"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/Y2BJYoG6nmpofX4fPM8EI5IozW2bODyI/17252794621150438652.png"
         />
-        <view class="flex-col items-start flex-1 ml-20">
-          <text class="font_3">什么是听力下降</text>
-          <text class="font_2  mt-12">3篇内容</text>
+        <view class="flex-col items-start group_3 ml-120 ml-20"bind:tap="onClick">
+          <text class="font text_1">什么是听力下降</text>
+          <text class="font_2 text_3 mt-40 mt-12">3篇内容</text>
         </view>
       </view>
-      <view class="flex-row items-center grid-item_2" bind:tap="onClick_1">
-        <image
-          class="shrink-0 image_4"
-          src="http://lc-KixOdMjP.cn-n1.lcfile.com/wJbxpQKnJaLTP2mp8A66uVzT2Klwtfd5/%E5%9B%BE%E7%89%87%201%20-%20%E5%89%AF%E6%9C%AC%203%20%281%29.jpg"
-        />
-        <view class="flex-col items-start flex-1 group_3 ml-30">
-          <text class="font_3">听力下降怎么办</text>
-          <text class="font_2 mt-18">2篇内容</text>
-        </view>
-      </view>
-      <view class="flex-row items-center grid-item_4" bind:tap="onClick_2">
-        <image
-          class="shrink-0 image_4"
-          src="http://lc-KixOdMjP.cn-n1.lcfile.com/x0fyenAUtYebRUL5OpFFGz7DS09gNDDi/%E5%9B%BE%E7%89%87%206.jpg"
-        />
-        <view class="flex-col items-start flex-1 ml-8">
-          <text class="font_11">听力治疗知多少</text>
-          <text class="font_2 text_5 mt-18">4篇内容</text>
-        </view>
-      </view>
-      <view class="flex-row items-center grid-item_3" bind:tap="onClick_3">
-        <image
-          class="shrink-0 image_4"
-          src="http://lc-KixOdMjP.cn-n1.lcfile.com/huQsVnAREWoJtvxMQz5Fu5zHRdxMywLM/%E5%9B%BE%E7%89%87%201%20-%20%E5%89%AF%E6%9C%AC%205.png"
-        />
-        <view class="flex-col items-start flex-1 ml-28">
-          <text class="font_3">家人可以做什么</text>
-          <text class="font_2 mt-22">2篇内容</text>
-        </view>
-      </view>
-      <view class="flex-row items-center grid-item_5" bind:tap="onClick_4">
-        <image
-          class="shrink-0 image_4"
-          src="http://lc-KixOdMjP.cn-n1.lcfile.com/ssm1jGrS8jdexnaUlYqnVxUSvTkDdsUa/%E5%9B%BE%E7%89%87%201%20-%20%E5%89%AF%E6%9C%AC%201.jpg"
-        />
-        <view class="flex-col items-start flex-1 group_4 ml-12">
-          <text class="font_11">如何看懂报告</text>
-          <text class="font_12  ">1篇内容</text>
-        </view>
-      </view>
-      <view class="flex-row items-center grid-item_6" bind:tap="onClick_5">
+      <view class="flex-row items-center section_3 mt-52"bind:tap="onClick_2">
         <image
           class="image_4"
-          src="http://lc-KixOdMjP.cn-n1.lcfile.com/NbsEWGCaWTsSjajJQzzzOGaFR6XwUOX7/%E5%9B%BE%E7%89%87%201%20-%20%E5%89%AF%E6%9C%AC%204.jpg"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/ywbwH4GXmASJnPcu6PMfuHr6WASlsVMl/17252853762019024382.png"
         />
-        <view class="flex-col items-start group_5 ml-30">
-          <text class="font_3">听损</text>
-          <text class="font_2 mt-18">3篇内容</text>
+        <view class="flex-col items-start group_4 ml-120 ml-8"bind:tap="onClick_2">
+          <text class="font text_13">听力治疗知多少</text>
+          <text class="font_2 text_4 mt-40 mt-18">4篇内容</text>
+        </view>
+      </view>
+      <view class="flex-row items-center section_4 mt-52"bind:tap="onClick_2">
+        <image
+          class="image_5"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/0y95NwY04b5f3J3PlCipVdCLUgMBx8Tt/17252853761888807531.png"
+        />
+        <view class="flex-col items-start group_5 ml-120 ml-12"bind:tap="onClick_4">
+          <text class="font_3 text_7">如何看懂报告</text>
+          <text class="font_2 text_5 mt-40 mt-14">3篇内容</text>
+        </view>
+      </view>
+      <view class="flex-row items-center section_5 mt-52"bind:tap="onClick_3">
+        <image
+          class="image_6"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/RXCuAhn1WwTqvA4a8ibpnNHn7mNQDsjW/17252794620993323786.png"
+        />
+        <view class="flex-col items-start group_6 ml-120 ml-30"bind:tap="onClick_1">
+          <text class="font text_9">听力下降怎么办</text>
+          <text class="font_2 text_10 mt-40 mt-18">2篇内容</text>
+        </view>
+      </view>
+      <view class="flex-row items-center section_6 mt-52"bind:tap="onClick_2">
+        <image
+          class="image_7"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/W0Nl8Ffhbhh9iWUoxQhrTpmo3M5Wx8tb/17252794615696443919.png"
+        />
+        <view class="flex-col items-start group_6 ml-120 ml-28"bind:tap="onClick_3">
+          <text class="font text_9">家人可以做什么</text>
+          <text class="font_2 text_10 mt-40 mt-22">2篇内容</text>
+        </view>
+      </view>
+      <view class="flex-row items-center section_7 mt-52">
+        <image
+          class="image_8"
+          src="http://lc-KixOdMjP.cn-n1.lcfile.com/dv2QrtCY2WBsFMNYBbbvzHLpLJxjEVYB/17252794615848056098.png"
+        />
+        <view class="flex-col items-start group_7 ml-120 ml-28"bind:tap="onClick_5">
+          <text class="font_3 text_11">发现听损</text>
+          <text class="font_2 text_12 mt-40 mt-10">4篇内容</text>
         </view>
       </view>
     </view>
