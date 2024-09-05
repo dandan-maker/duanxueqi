@@ -27,7 +27,7 @@
 }
 .text-wrapper {
   padding: 8.93rpx 0;
-  background-image: url('https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=e05902acd9310d49994c0893263f61ad.png');
+  background-image: url(http://lc-KixOdMjP.cn-n1.lcfile.com/xN3KBLESDYLKX1uFq0m5KKUQe8JmnXj0/17252797134875053568.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 66.07rpx;
@@ -45,7 +45,7 @@
 }
 .text-wrapper_2 {
   padding: 7.94rpx 0;
-  background-image: url('https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=e05902acd9310d49994c0893263f61ad.png');
+  background-image: url(http://lc-KixOdMjP.cn-n1.lcfile.com/xN3KBLESDYLKX1uFq0m5KKUQe8JmnXj0/17252797134875053568.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 66.07rpx;
@@ -59,7 +59,7 @@
 }
 .text-wrapper_3 {
   padding: 7.94rpx 0;
-  background-image: url('https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=e05902acd9310d49994c0893263f61ad.png');
+  background-image: url(http://lc-KixOdMjP.cn-n1.lcfile.com/xN3KBLESDYLKX1uFq0m5KKUQe8JmnXj0/17252797134875053568.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 66.07rpx;
@@ -73,7 +73,7 @@
 }
 .text-wrapper_4 {
   padding: 6.94rpx 0 9.92rpx;
-  background-image: url('https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=e05902acd9310d49994c0893263f61ad.png');
+  background-image: url(http://lc-KixOdMjP.cn-n1.lcfile.com/xN3KBLESDYLKX1uFq0m5KKUQe8JmnXj0/17252797134875053568.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 66.07rpx;
