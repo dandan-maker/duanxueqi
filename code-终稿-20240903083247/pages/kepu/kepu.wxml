@@ -26,7 +26,7 @@
         />
         <view class="flex-col items-start flex-1 ml-20">
           <text class="font_3">什么是听力下降</text>
-          <text class="font_2 text_4 mt-12">3篇内容</text>
+          <text class="font_2  mt-12">3篇内容</text>
         </view>
       </view>
       <view class="flex-row items-center grid-item_2" bind:tap="onClick_1">
@@ -45,7 +45,7 @@
           src="http://lc-KixOdMjP.cn-n1.lcfile.com/x0fyenAUtYebRUL5OpFFGz7DS09gNDDi/%E5%9B%BE%E7%89%87%206.jpg"
         />
         <view class="flex-col items-start flex-1 ml-8">
-          <text class="font_3">听力治疗知多少</text>
+          <text class="font_11">听力治疗知多少</text>
           <text class="font_2 text_5 mt-18">4篇内容</text>
         </view>
       </view>
@@ -65,8 +65,8 @@
           src="http://lc-KixOdMjP.cn-n1.lcfile.com/ssm1jGrS8jdexnaUlYqnVxUSvTkDdsUa/%E5%9B%BE%E7%89%87%201%20-%20%E5%89%AF%E6%9C%AC%201.jpg"
         />
         <view class="flex-col items-start flex-1 group_4 ml-12">
-          <text class="font_3">如何看懂报告</text>
-          <text class="font_2 text_7 mt-18">1篇内容</text>
+          <text class="font_11">如何看懂报告</text>
+          <text class="font_12  ">1篇内容</text>
         </view>
       </view>
       <view class="flex-row items-center grid-item_6" bind:tap="onClick_5">
@@ -75,86 +75,10 @@
           src="http://lc-KixOdMjP.cn-n1.lcfile.com/NbsEWGCaWTsSjajJQzzzOGaFR6XwUOX7/%E5%9B%BE%E7%89%87%201%20-%20%E5%89%AF%E6%9C%AC%204.jpg"
         />
         <view class="flex-col items-start group_5 ml-30">
-          <text class="font_3">发现听损</text>
+          <text class="font_3">听损</text>
           <text class="font_2 mt-18">3篇内容</text>
         </view>
       </view>
-    </view>
-    <view class="flex-row items-center group_6">
-      <image
-        class="image_9"
-        src="http://lc-KixOdMjP.cn-n1.lcfile.com/dMgFrmV2gCjY8VUzyFuR7R6o1dSJyUUY/%E5%9B%BE%E6%A0%87%208.png"
-      />
-      <text class="text_8">最新新闻</text>
-      <image
-        class="image_10"
-        src="http://lc-KixOdMjP.cn-n1.lcfile.com/qT6wQXOVqiqs3DYFKiGzvhVmceGVzTSp/%E5%9B%BE%E6%A0%87%209.png"
-      />
-    </view>
-    <view class="flex-col group_7">
-      <view class="flex-row">
-  <!-- 第一张图片 -->
-  <image
-    class="image_11"
-    src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=480729c59be524481e4df2c5caef5e29.png"
-  />
-
-  <!-- 第二张图片，带有文字 -->
-  <view class="ml-24 relative-wrapper" bindtap="handleWebViewTap"data-url="https://mp.weixin.qq.com/s/smDL4mKQsg-Z-NCvDQfFJw" style="position: relative;">
-    <!-- 图片 -->
-    <image
-      class="image_12"
-      src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=65962fd810604aa3c66ff9cef3318e45.png"
-    />
-    <!-- 在图片上添加文字 -->
-    <text class="image-text" style=" position: absolute; top: -50%; left: 0%;color: #2f3e72; font-size: 20px;">
-      护耳三招，每天敲一敲，强肾护耳
-    </text>
-  </view>
-</view>
-
-      <view class="flex-row mt-48">
-  <!-- 第一张图片 -->
-  <image
-    class="image_11"
-    src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=480729c59be524481e4df2c5caef5e29.png"
-  />
-  
-  <!-- 第二张图片，带有文字 -->
-  <view class="ml-34 relative-wrapper" style="position: relative;"bindtap="handleWebViewTap"data-url="https://mp.weixin.qq.com/s/LhoWPT5l679R4Z98tYL1qQ">
-    <!-- 图片 -->
-    <image
-      class="image_12"
-      src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=480729c59be524481e4df2c5caef5e29.png"
-    />
-    <!-- 在图片上添加文字 -->
-    <text class="image-text" style=" position: absolute; top: -50%; left: 0%;color: #2f3e72; font-size: 20px;">
-      巴黎奥运会赛事嗨翻天，别让听力成为“输家”！
-    </text>
-  </view>
-</view>
-
-<view class="flex-row mt-48">
-  <!-- 第一张图片 -->
-  <image
-    class="image_11"
-    src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=480729c59be524481e4df2c5caef5e29.png"
-  />
-
-  <!-- 第二张图片，带有文字 -->
-  <view class="ml-34 relative-wrapper" style="position: relative;"bindtap="handleWebViewTap"data-url="https://mp.weixin.qq.com/s/syt6HvoOXDVXAb1qou_aeg">
-    <!-- 图片 -->
-    <image
-      class="image_12"
-      src="https://ide.code.fun/api/image?token=66d6c3110412d90011fc8ce4&name=65962fd810604aa3c66ff9cef3318e45.png"
-    />
-    <!-- 在图片上添加文字 -->
-    <text class="image-text" style=" position: absolute; top: -50%; left: 0%;color: #2f3e72; font-size: 20px;">
-      建军节大行动！帮耳通为军人守护“无声战场”
-    </text>
-  </view>
-</view>
-
     </view>
   </view>
 </view>

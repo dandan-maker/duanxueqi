@@ -59,14 +59,17 @@
   row-gap: 26rpx;
   column-gap: 0;
 }
-.grid-item {
-  margin-top: 150rpx;
-  padding: 9.25rpx 0 5rpx 11.5rpx;
-  background-color: #cce7fa;
-  border-radius: 10rpx;
-  height: 110rpx;
-  width: 330rpx;
-}
+
+  .grid-item {
+    margin-top: 150rpx;
+    padding: 9rpx 0 5rpx 12rpx;
+    background-color: #cce7fa;
+    border-radius: 10rpx;
+    height: 110rpx;
+    width: 660rpx;
+    margin-left: 35rpx;
+  }
+
 .image_4 {
   width: 90rpx;
   height: 90rpx;
@@ -77,67 +80,79 @@
   font-family: Adobe Heiti Std;
   line-height: 30rpx;
   color: #2f3e72;
+  margin-left: 50rpx;
+  text-overflow: ellipsis;
+
 }
 .font_2 {
   font-size: 20rpx;
   font-family: STKaiti;
   line-height: 20rpx;
   color: #2f3e72;
+  margin-left: 50rpx;
 }
 .text_4 {
-  margin-left: 2.5rpx;
+  margin-left: 10rpx;
 }
 .grid-item_2 {
-  margin-top: 150rpx;
-  padding: 6rpx 8rpx 9rpx;
+  margin-top: 592rpx;
+  padding: 11rpx 7rpx 12rpx;
   background-color: #fffbe5;
   border-radius: 10rpx;
   height: 110rpx;
-  width: 330rpx;
+  width: 660rpx;
+  margin-left: -318rpx;
+ 
 }
 .group_3 {
   margin-right: 2.26rpx;
 }
 .grid-item_4 {
   margin-top: 200rpx;
-  padding: 8.5rpx 0 11.25rpx 7rpx;
+  padding: 9rpx 0 11rpx 7rpx;
   background-color: #c6e0d3;
   border-radius: 10rpx;
   height: 100rpx;
-  width: 330rpx;
+  width: 660rpx;
+  margin-left: 35rpx;
 }
 .text_5 {
-  margin-left: 2.75rpx;
+  margin-left: 65rpx;
 }
 .grid-item_3 {
-  margin-top: 200rpx;
-  padding: 8.25rpx 10rpx;
+  margin-top: 652rpx;
+  padding: 11rpx 7rpx 12rpx;
   background-color: #84bacc;
   border-radius: 10rpx;
   height: 110rpx;
-  width: 330rpx;
+  width: 660rpx;
+  margin-left: -318rpx;
+ 
 }
 .grid-item_5 {
   margin-top: 250rpx;
-  padding: 11rpx 6.75rpx 12.25rpx;
+  padding: 11rpx 7rpx 12rpx;
   background-color: #d6ccef;
   border-radius: 10rpx;
   height: 110rpx;
-  width: 330rpx;
+  width: 660rpx;
+  margin-left: 35rpx;
 }
 .group_4 {
   margin-right: 8.76rpx;
 }
 .text_7 {
-  margin-left: 5.5rpx;
+  margin-left: 35rpx;
 }
 .grid-item_6 {
-  margin-top: 250rpx;
-  padding: 5.25rpx 15.5rpx 10.75rpx;
+  margin-top: 712rpx;
+  padding: 11rpx 7rpx 12rpx;
   background-color: #fbd4af;
   border-radius: 10rpx;
   height: 110rpx;
-  width: 330rpx;
+  width: 660rpx;
+  margin-left: -318rpx;
+  
 }
 .group_5 {
   width: 126rpx;
@@ -182,4 +197,21 @@
   font-size: 35rpx;
  
   line-height: 51.43rpx;
+}
+.font_11 {
+  font-size: 30rpx;
+  font-family: Adobe Heiti Std;
+  line-height: 30rpx;
+  color: #2f3e72;
+  margin-left: 60rpx;
+  text-overflow: ellipsis;
+
+}
+.font_12 {
+  font-size: 20rpx;
+  font-family: STKaiti;
+  line-height: 20rpx;
+  color: #2f3e72;
+  margin-left: 64rpx;
+  margin-top: 10rpx;
 }
