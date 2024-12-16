@@ -1,0 +1,75 @@
+/* pages/testpages/test_2/test_2.wxss */
+Page {
+  background-color: white;
+}
+
+.cover {
+  width: 100%;
+  height: 650rpx;
+}
+.cover .bgImg {
+  width: 100%;
+  border-radius: 0 0 30rpx 30rpx;
+}
+.cover .ipt {
+  height: 100rpx;
+  width: 640rpx;
+  background-color: rgba(255,255,255,0.8);
+  color: var(--themeColorBlue);
+  font-size: large;
+  font-weight: bolder;
+  margin: 600rpx 30rpx 50rpx;
+  padding-left: 40rpx;
+  border-radius: 35rpx;
+  border: 5rpx solid black;
+  z-index: 5;
+  position: absolute;
+}
+
+
+.guide .title {
+  font-size: xx-large;
+  font-weight: bold;
+  color: var(--themeColorBlue);
+  margin-top: 180rpx;
+  text-align: center;
+}
+.guide .prog {
+  height: 80rpx;
+  margin: 80rpx 30rpx 40rpx;
+}
+.wx-progress-inner-bar {
+  border-radius: 20rpx !important;
+  background: linear-gradient(to right, var(--themeColorBlue), rgb(173, 155, 206)) !important; 
+}
+.guide .home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  left: 120rpx;
+  font-size: large;
+  font-weight: bold;
+  color: var(--themeColorBlue);
+}
+.guide .next {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  right: 120rpx;
+  font-size: large;
+  font-weight: bold;
+  color: var(--themeColorBlue);
+}
+.guide .home .homeImg {
+  height: 110rpx;
+  border-radius: 50%;
+  margin: 20rpx 0;
+}
+.guide .next .nextImg {
+  height: 150rpx;
+  border-radius: 50%;
+}
